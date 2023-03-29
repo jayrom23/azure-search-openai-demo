@@ -1,0 +1,2228 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Jerome Oppliger</Author>
+  <LastAuthor>Jerome</LastAuthor>
+  <LastPrinted>2023-03-29T18:51:22Z</LastPrinted>
+  <Created>2022-11-28T10:09:57Z</Created>
+  <LastSaved>2023-03-29T19:01:39Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <CustomDocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <ContentTypeId dt:dt="string">0x010100CEE4903E88482944BCF7648984F02DC6</ContentTypeId>
+ </CustomDocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>15675</WindowHeight>
+  <WindowWidth>28995</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s39" ss:Name="Green Dark">
+   <Interior ss:Color="#144012" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s38" ss:Name="Green Gadget">
+   <Interior ss:Color="#32EC9C" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s40" ss:Name="Standard 2">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s37" ss:Name="Überschrift G">
+   <Font ss:FontName="Arial Black" x:Family="Swiss" ss:Size="14" ss:Color="#144012"/>
+  </Style>
+  <Style ss:ID="s41" ss:Parent="s39">
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s42" ss:Parent="s39">
+   <Font ss:FontName="Gadget Display" x:Family="Modern" ss:Size="60"
+    ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s43" ss:Parent="s38">
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior ss:Color="#58CE52" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s44">
+   <Interior ss:Color="#58CE52" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s45">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior ss:Color="#58CE52" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="Short Date"/>
+  </Style>
+  <Style ss:ID="s46">
+   <Font ss:FontName="Gadget Display" x:Family="Modern" ss:Size="60"/>
+   <Interior ss:Color="#58CE52" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s47" ss:Parent="s37">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:Indent="1"/>
+   <Font ss:FontName="Arial Black" x:Family="Swiss" ss:Size="18"/>
+   <Interior ss:Color="#58CE52" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s48">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior ss:Color="#58CE52" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s49">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="11" ss:Bold="1"/>
+   <Interior ss:Color="#58CE52" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s50">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="11" ss:Bold="1"/>
+   <Interior ss:Color="#58CE52" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s51">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+  </Style>
+  <Style ss:ID="s52">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+  </Style>
+  <Style ss:ID="s53">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+  </Style>
+  <Style ss:ID="s54">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+  </Style>
+  <Style ss:ID="s55">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s56">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:Indent="1"
+    ss:WrapText="1"/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s57">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="11" ss:Bold="1"/>
+   <Interior ss:Color="#58CE52" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s58">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+  </Style>
+  <Style ss:ID="s59">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+  </Style>
+  <Style ss:ID="s60">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+  </Style>
+  <Style ss:ID="s61">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="11" ss:Bold="1"/>
+   <Interior ss:Color="#58CE52" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+  </Style>
+  <Style ss:ID="s66" ss:Parent="s40">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+  </Style>
+  <Style ss:ID="s67" ss:Parent="s40">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <NumberFormat ss:Format="Short Date"/>
+  </Style>
+  <Style ss:ID="s68" ss:Parent="s40">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+  </Style>
+  <Style ss:ID="s69" ss:Parent="s40">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+  </Style>
+  <Style ss:ID="s70" ss:Parent="s40">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+  </Style>
+  <Style ss:ID="s71" ss:Parent="s40">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="11"/>
+  </Style>
+  <Style ss:ID="s72" ss:Parent="s40">
+   <Font ss:FontName="Arial Black" x:Family="Swiss" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s73">
+   <Font ss:FontName="Arial Black" x:Family="Swiss"/>
+  </Style>
+  <Style ss:ID="s74">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="Arial Black" x:Family="Swiss"/>
+  </Style>
+  <Style ss:ID="s75">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <NumberFormat ss:Format="_ * #,##0_ ;_ * \-#,##0_ ;_ * &quot;-&quot;??_ ;_ @_ "/>
+  </Style>
+  <Style ss:ID="s76">
+   <NumberFormat ss:Format="_ * #,##0_ ;_ * \-#,##0_ ;_ * &quot;-&quot;??_ ;_ @_ "/>
+  </Style>
+  <Style ss:ID="s77">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Kategorien Konzerte">
+  <Table ss:ExpandedColumnCount="11" ss:ExpandedRowCount="12" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="64.125">
+   <Column ss:AutoFitWidth="0" ss:Width="18.375"/>
+   <Column ss:AutoFitWidth="0" ss:Width="145.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="106.125"/>
+   <Column ss:AutoFitWidth="0" ss:Width="88.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="99.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="102.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="102"/>
+   <Column ss:Width="57.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="396"/>
+   <Column ss:AutoFitWidth="0" ss:Width="123.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="460.5"/>
+   <Row ss:Index="2" ss:Height="72.375">
+    <Cell ss:StyleID="s43"/>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">Green Gadget</Data></Cell>
+    <Cell ss:StyleID="s44"/>
+    <Cell ss:StyleID="s44"/>
+    <Cell ss:StyleID="s44"/>
+    <Cell ss:StyleID="s44"/>
+    <Cell ss:StyleID="s44"/>
+    <Cell ss:StyleID="s44"/>
+    <Cell ss:StyleID="s44"/>
+    <Cell ss:StyleID="s44"/>
+    <Cell ss:StyleID="s44"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s41"/>
+    <Cell ss:StyleID="s42"/>
+    <Cell ss:StyleID="s41"/>
+    <Cell ss:StyleID="s41"/>
+    <Cell ss:StyleID="s41"/>
+    <Cell ss:StyleID="s41"/>
+    <Cell ss:StyleID="s41"/>
+    <Cell ss:StyleID="s41"/>
+    <Cell ss:StyleID="s41"/>
+    <Cell ss:StyleID="s41"/>
+    <Cell ss:StyleID="s41"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.875">
+    <Cell ss:StyleID="s43"/>
+    <Cell ss:StyleID="s47"><Data ss:Type="String">Kategorisierung Konzerte 2022</Data></Cell>
+    <Cell ss:StyleID="s44"/>
+    <Cell ss:StyleID="s44"/>
+    <Cell ss:StyleID="s44"/>
+    <Cell ss:StyleID="s44"/>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">Stand:</Data></Cell>
+    <Cell ss:StyleID="s45" ss:Formula="=TODAY()"><Data ss:Type="DateTime">2023-03-30T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s45" ss:Formula="=TODAY()"><Data ss:Type="DateTime">2023-03-30T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s45"/>
+    <Cell ss:StyleID="s45"/>
+   </Row>
+   <Row ss:Index="7" ss:Height="13.125"/>
+   <Row ss:AutoFitHeight="0" ss:Height="38.25">
+    <Cell ss:Index="2" ss:StyleID="s49"><Data ss:Type="String">Kategorie</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">Venue-Typ</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="String">Besucheranzahl</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">Beispiel Venues</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">Künstler- und Crew-Anreise</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">Anreise</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s55"><Data ss:Type="String">Relevanteste Datenpunkte</Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String">Kategorie</Data></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">Datensammlungs- &amp; Modellierungsempfehlungen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="49.875">
+    <Cell ss:Index="2" ss:StyleID="s51"><Data ss:Type="String">A: Kleine lokale Konzerte</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">Kleine Veranstaltungsorte</Data></Cell>
+    <Cell ss:StyleID="s52"><Data ss:Type="String">Bis zu 500</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">Exil, Dynamo, Plaza, Mascotte, Kaufleuten</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">Hauptsächlich Auto/Zug</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">Lokal, vermehrt ÖV</Data></Cell>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">1. Energieverbrauch: Der Stromverbrauch der Veranstaltungsorte, einschließlich Beleuchtung, Sound- und Heiz-/Kühlsysteme sowie zusätzliche Dieselgeneratoren für Stadionkonzerte.</Data></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="String">A: Kleine lokale Konzerte</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Verbrauchsdaten der Veranstaltungsorte sollten fokussiert werden&#10;&#10;Der Transport sollte anhand der Entfernung der Besucher und der Art des Verkehrsmittels geschätzt werden&#10;&#10;Daten zur Abfallerzeugung während der Veranstaltungen sollten gesammelt werden</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="50.0625">
+    <Cell ss:Index="2" ss:StyleID="s51"><Data ss:Type="String">B: Mittelgroße lokale / regionalen Konzerte</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">Mittelgroße Veranstaltungsorte</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="String">500 bis 2.000</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">X-TRA, Theater 11, Volkshaus, Kongresshaus</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">Auto/Zug, einige Flugreisen</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">Lokal / regional, vermehrt ÖV</Data></Cell>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">2. Transport: Emissionen der anreisenden Besucher, Künstler und Crew, unter Berücksichtigung der Entfernungen und der verschiedenen Verkehrsmittel (Auto, Zug und Flugverkehr).</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">B: Mittelgroße lokale / regionalen Konzerte</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Daten über den Verbrauch an den Veranstaltungsorten sollten gesammelt werden, auch bei Spitzenlasten&#10;&#10;Verfügbare Verkehrsmitteldaten und Schätzungen sollten zur Berechnung der CO2-Emissionen genutzt werden&#10;&#10;Abfallbewirtschaftungspraktiken sollten untersucht werden, um Verbesserungspotenziale zu erkennen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="50.0625">
+    <Cell ss:Index="2" ss:StyleID="s51"><Data ss:Type="String">C: Große nationale / internationale Konzerte</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">Große Hallen</Data></Cell>
+    <Cell ss:StyleID="s52"><Data ss:Type="String">2.000 bis 15.000</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">Halle 622, The Hall, Hallenstadion</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">Mischung aus Auto, Zug und Flugreisen</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">Lokal / regional / national, mehrheitlich ÖV &amp; einige PKWs</Data></Cell>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">3. Abfallerzeugung: Abfallproduktion während der Konzerte, einschließlich Lebensmittel-, Verpackungs- und Einwegmaterialien.</Data></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="String">C: Große nationale / internationale Konzerte</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Energieverbrauchsdaten für große Hallen sollten erfasst werden&#10;&#10;Die verschiedenen Verkehrsmittel und die Entfernungen, die Besucher zurücklegen, sollten berücksichtigt werden&#10;&#10;Daten über die Abfallmenge und Recyclingquoten bei Großveranstaltungen sollten gesammelt werden</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="50.0625">
+    <Cell ss:Index="2" ss:StyleID="s51"><Data ss:Type="String">D: Konzerte in Stadien</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">Große offene Stadien</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="String">Bis zu 50.000</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">Letzigrund Stadion, Stadion Wankdorf</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">Mischung aus Auto, Zug und Flugreisen</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">Lokal - international,  ÖV &amp; PKWs</Data></Cell>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:Index="10" ss:StyleID="s60"><Data ss:Type="String">D: Konzerte in Stadien</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Daten zum Energieverbrauch in Stadien, inklusive Dieselgeneratoren, sollten gesammelt werden&#10;&#10;Informationen zum Transport der Besucher und Künstler, insbesondere zum Flugverkehr, sollten erhoben werden&#10;&#10;Abfalldaten für Stadionkonzerte sollten erfasst werden, um mögliche Abfallreduktionen zu identifizieren</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.78740157499999996" x:Left="0.7" x:Right="0.7"
+     x:Top="0.78740157499999996"/>
+   </PageSetup>
+   <FitToPage/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <Scale>29</Scale>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <LeftColumnVisible>6</LeftColumnVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>10</ActiveRow>
+     <ActiveCol>10</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Einteilung Konzerte 2022">
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="30" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="64.125">
+   <Column ss:Width="151.875"/>
+   <Column ss:AutoFitWidth="0" ss:Width="128.625"/>
+   <Row ss:AutoFitHeight="0" ss:Height="43.5">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Venues</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Durchschnittliche Anzahl Besuchende</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Kategorie</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">Alhambra, Geneva</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">650</Data></Cell>
+    <Cell ss:StyleID="s77"
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">C</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">Braui, Hochdorf</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">825</Data></Cell>
+    <Cell ss:StyleID="s77"
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">Casino, Bern</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">920.6</Data></Cell>
+    <Cell ss:StyleID="s77"
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">Congress Centre, Interlaken </Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">1137</Data></Cell>
+    <Cell ss:StyleID="s77"
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">Dynamo, Zürich</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">473</Data></Cell>
+    <Cell ss:StyleID="s77"
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">Exil, Zürich</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">187.3125</Data></Cell>
+    <Cell ss:StyleID="s77"
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">Forum Ried, Landquart </Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">1355</Data></Cell>
+    <Cell ss:StyleID="s77"
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">Halle 622, Zürich</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">2315.6923076923076</Data></Cell>
+    <Cell ss:StyleID="s77"
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">Hallenstadion, Zürich</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">7909.727272727273</Data></Cell>
+    <Cell ss:StyleID="s77"
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">Kaufleuten, Zürich</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">553.625</Data></Cell>
+    <Cell ss:StyleID="s77"
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">KKL, Luzern</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">1061.3333333333333</Data></Cell>
+    <Cell ss:StyleID="s77"
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">Kongresshaus, Biel </Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">678</Data></Cell>
+    <Cell ss:StyleID="s77"
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">C</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">Kongresshaus, Zürich</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">1446</Data></Cell>
+    <Cell ss:StyleID="s77"
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">Letzigrund, Zürich</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">48117.5</Data></Cell>
+    <Cell ss:StyleID="s77"
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">Mascotte, Zürich</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">223</Data></Cell>
+    <Cell ss:StyleID="s77"
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">C</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">Musical Theater, Basel</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">1262</Data></Cell>
+    <Cell ss:StyleID="s77"
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">C</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">Papiersaal, Zürich</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">182</Data></Cell>
+    <Cell ss:StyleID="s77"
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">Plaza, Zürich</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">361.33333333333331</Data></Cell>
+    <Cell ss:StyleID="s77"
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">Simplonhalle, Brig </Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">882</Data></Cell>
+    <Cell ss:StyleID="s77"
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">St. Jakobshalle, Basel</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">9335</Data></Cell>
+    <Cell ss:StyleID="s77"
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">Stadion Wankdorf, Bern</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">30022.5</Data></Cell>
+    <Cell ss:StyleID="s77"
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">THE HALL, Zürich</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">2627.5555555555557</Data></Cell>
+    <Cell ss:StyleID="s77"
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">Theater 11, Zürich</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">1204.6666666666667</Data></Cell>
+    <Cell ss:StyleID="s77"
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">Volkshaus, Basel</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">1318.25</Data></Cell>
+    <Cell ss:StyleID="s77"
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">Volkshaus, Zürich</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">1291.2222222222222</Data></Cell>
+    <Cell ss:StyleID="s77"
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">Werk21, Zürich</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">148</Data></Cell>
+    <Cell ss:StyleID="s77"
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">Westhalle, Langenthal</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">881</Data></Cell>
+    <Cell ss:StyleID="s77"
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">C</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">X-TRA, Zürich</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">1423.1538461538462</Data></Cell>
+    <Cell ss:StyleID="s77"
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">Z7, Pratteln</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">758</Data></Cell>
+    <Cell ss:StyleID="s77"
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.78740157499999996" x:Left="0.7" x:Right="0.7"
+     x:Top="0.78740157499999996"/>
+   </PageSetup>
+   <FitToPage/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>31</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Konzerte 2022">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="152" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s40" ss:DefaultColumnWidth="60.375"
+   ss:DefaultRowHeight="14.25">
+   <Column ss:StyleID="s40" ss:AutoFitWidth="0" ss:Width="28.875"/>
+   <Column ss:StyleID="s40" ss:AutoFitWidth="0" ss:Width="103.5"/>
+   <Column ss:StyleID="s40" ss:AutoFitWidth="0" ss:Width="144.75"/>
+   <Column ss:StyleID="s40" ss:AutoFitWidth="0" ss:Width="113.25"/>
+   <Column ss:StyleID="s40" ss:AutoFitWidth="0" ss:Width="107.625"/>
+   <Column ss:StyleID="s40" ss:Width="71.625"/>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">ID</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Tag / Datum</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Band</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Venue / Ort</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Anzahl Besucher</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Kategorie</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-02-05T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Bryan Adams</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Hallenstadion, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">6215</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">C</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-02-15T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Patent Ochsner</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Theater 11, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1492</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-02-16T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Patent Ochsner</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Theater 11, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1344</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-02-17T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Patent Ochsner</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Theater 11, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1039</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-02-25T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Seven</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Volkshaus, Basel</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">385</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-02-28T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Patent Ochsner</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Casino, Bern</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1135</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-03-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Patent Ochsner</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Casino, Bern</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1138</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-03-02T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Patent Ochsner</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Casino, Bern</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">976</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-03-03T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Patent Ochsner</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Casino, Bern</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">816</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-03-07T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Patent Ochsner</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">KKL, Luzern</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1362</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-03-08T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Patent Ochsner</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">KKL, Luzern</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1300</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">13</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-03-09T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">James Blunt</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Hallenstadion, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">11220</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">C</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">09.03.20222</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Bastian Baker</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Kaufleuten, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">545</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-03-10T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Metronomy</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Kaufleuten, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">550</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">10.03.20223</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Amy Macdonald</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">THE HALL, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">2413</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">C</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">17</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-03-12T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Paul Kalkbrenner</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">THE HALL, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">5030</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">C</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">18</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">12.03.20224</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Heimweh</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Westhalle, Langenthal</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">881</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">19</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-03-13T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Caribou </Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Kaufleuten, Zürich</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">500</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">13.03.20225</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Heimweh</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Kongresshaus, Biel </Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">678</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">21</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-03-17T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Kings of Convenience</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Theater 11, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1191</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">22</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-03-21T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Easy Life</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Papiersaal, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">76</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">23</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-03-22T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Patent Ochsner</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Musical Theater, Basel</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1567</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-03-23T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Patent Ochsner</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Musical Theater, Basel</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1389</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">25</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-03-24T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Fontaines DC</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Dynamo, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">650</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">26</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-03-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Dabu Fantastic</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Kaufleuten, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">467</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">27</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">31.03.20226</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Mighty Oaks</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">X-TRA, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1699</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">28</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-04-04T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">The War On Drugs</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Halle 622, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">2309</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">C</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">29</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-04-05T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Khruangbin</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">X-TRA, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1827</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-04-09T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Louis Tomlinson</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Halle 622, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1890</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">31</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-04-10T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Heimweh</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Musical Theater, Basel</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">830</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-04-11T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Nothing But Thieves</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Halle 622, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">2078</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">C</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">33</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">11.04.20227</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Cory Wong</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Kaufleuten, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">589</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">34</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-04-12T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">ZAZ</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">KKL, Luzern</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">973</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">35</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-04-19T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Giant Rooks</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">X-TRA, Zürich</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1450</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">36</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-04-22T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Hecht</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Volkshaus, Basel</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1277</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">37</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-04-23T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Heimweh</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Simplonhalle, Brig </Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">882</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">38</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-04-25T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Dita von Teese</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Theater 11, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1358</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">39</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-04-26T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Chilly Gonzales</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Casino, Bern</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">538</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">26.04.20228</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Bonobo</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">X-TRA, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1317</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">41</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-04-28T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Fletcher</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Kaufleuten, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">562</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">42</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">28.04.20229</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Chilly Gonzales</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Theater 11, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">804</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">43</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-04-30T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Heimweh</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Halle 622, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">953</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">44</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-05-02T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">5 Seconds Of Summer</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Halle 622, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">2886</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">C</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">45</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">02.05.202210</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">John Butler (Solo)</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Kaufleuten, Zürich</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">586</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">46</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-05-03T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Hecht</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Kaufleuten, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">787</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">47</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-05-04T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">John Butler (Solo)</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Alhambra, Geneva</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">650</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">48</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-05-06T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Mitski</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Kaufleuten, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">525</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">49</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-05-07T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Heimweh</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Congress Centre, Interlaken </Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1137</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-05-12T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Imminence</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Exil, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">300</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">51</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-05-13T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Pippo Pollina</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Volkshaus, Basel</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">2600</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">C</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">52</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-05-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Rikas</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Exil, Zürich</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">180</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">53</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">14.05.202211</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Simple Minds</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Hallenstadion, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">4128</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">C</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">54</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-05-15T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Pet Shop Boys</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Hallenstadion, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">2822</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">C</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">55</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-05-16T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">OneRepublic</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Hallenstadion, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">10342</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">C</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">56</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">16.05.202212</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Tom Gregory</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Kaufleuten, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">388</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">57</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-05-17T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">ZAZ</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Kongresshaus, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1446</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">58</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">17.05.202213</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Conan Gray</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Volkshaus, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1498</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">59</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-05-18T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Foals</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">X-TRA, Zürich</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1400</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-05-19T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Scooter</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Hallenstadion, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">8229</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">C</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">61</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">19.05.202214</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Electric Callboy</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Z7, Pratteln</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">758</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">62</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-05-21T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Heimweh (2x, Abend &amp; Nachmittag)</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Forum Ried, Landquart </Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1355</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">63</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-05-22T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Heimweh</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Braui, Hochdorf</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">825</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">64</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-05-23T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Sunrise Avenue</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Hallenstadion, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">9147</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">C</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">65</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-05-24T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Sunrise Avenue</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Hallenstadion, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">9591</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">C</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">66</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-05-29T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Josh Savage</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Exil, Zürich</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">170</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">67</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-05-30T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Rammstein</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Letzigrund, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">48146</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">D</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">68</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-05-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Rammstein</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Letzigrund, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">48089</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">D</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">69</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-06-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Elton John</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Stadion Wankdorf, Bern</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">21229</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">D</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">70</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-06-05T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Zucchero</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Hallenstadion, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">9786</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">C</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">71</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-06-07T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Justin Jesso</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Exil, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">63</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">72</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">07.06.202215</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Deftones</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">X-TRA, Zürich</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1300</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">73</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-06-08T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Engst</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Exil, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">55</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">A</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">74</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-06-09T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Imagine Dragons</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Stadion Wankdorf, Bern</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">38816</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">D</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">75</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-06-10T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Daniel Sloss</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Volkshaus, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1025</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">76</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-06-13T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Lorde</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Halle 622, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">2184</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">C</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">77</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-06-15T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Olivia Rodrigo</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Halle 622, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">3591</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">C</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">78</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">15.06.202216</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Tocotronic </Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">X-TRA, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1056</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">80</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-06-17T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Hot Milk</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Exil, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">57</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">82</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-06-22T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Cat Power</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Kaufleuten, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">195</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">83</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">22.06.202217</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Beck</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Volkshaus, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">681</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">84</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-06-23T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Pearl Jam</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Hallenstadion, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">14479</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">C</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">85</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-06-24T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Nick Mason</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">KKL, Luzern</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">992</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">86</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-06-28T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Queen &amp; Adam Lambert</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Hallenstadion, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">14166</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">C</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">88</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-07-03T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Juanes</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">X-TRA, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">530</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">89</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-07-04T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Jan Delay </Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Volkshaus, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1820</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">90</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-07-17T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Jeremy Zucker</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Dynamo, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">417</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">91</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-08-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Mono</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Mascotte, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">315</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">92</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-09-06T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Peter Maffay </Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Hallenstadion, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">8156</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">C</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">93</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">06.09.202219</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Aurora</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Kaufleuten, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">748</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">94</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-09-07T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Role Model</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Plaza, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">440</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">95</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-09-10T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Wincent Weiss</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Hallenstadion, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">7327</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">C</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">96</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-09-11T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Joris</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Kaufleuten, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">464</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">97</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">11.09.202220</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Aries</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Plaza, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">217</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">98</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-09-12T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Ólafur Arnalds</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">KKL, Luzern</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">874</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">99</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">12.09.202221</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Biffy Clyro</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">THE HALL, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">3011</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">C</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-09-16T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Calum Scott</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Volkshaus, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1027</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">101</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-09-18T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Paw Patrol (3 Shows)</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Hallenstadion, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">3361</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">C</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">102</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">18.09.202222</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">James Morrison</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Kaufleuten, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">464</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">104</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-09-19T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Anastacia</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">THE HALL, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1324</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">105</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-09-20T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Luna</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Exil, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">196</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">106</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-09-22T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Deine Cousine</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Werk21, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">96</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">107</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-09-23T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Bruckner</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Exil, Zürich</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">170</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">108</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-09-25T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Kids of Adelaide</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Exil, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">37</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">109</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">25.09.202224</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">David Garrett</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Hallenstadion, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">4541</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">C</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">110</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-09-28T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Alvaro Soler</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Halle 622, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">2670</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">C</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">111</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-09-29T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Paolo Nutini</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">X-TRA, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1870</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">112</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-10-03T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Tom Odell</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Kaufleuten, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">800</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">113</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-10-04T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Provinz</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">X-TRA, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1804</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">114</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-10-05T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Parra For Cuva</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Exil, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">303</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">115</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">05.10.202225</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Clueso</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Volkshaus, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1768</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">116</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-10-07T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Sigur Ros</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Halle 622, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1984</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">117</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-10-08T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Milky Chance</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Halle 622, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">2136</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">C</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">118</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">08.10.202226</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Parov Stelar </Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">THE HALL, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1998</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">119</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-10-10T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Parcels</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Volkshaus, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1480</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">120</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-10-11T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Wilhelmine</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Papiersaal, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">352</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">121</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-10-13T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Jules Ahoi</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Exil, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">300</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">122</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-10-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Alan Walker</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Halle 622, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">2789</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">C</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">123</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">14.10.202227</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Eric Clapton</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Hallenstadion, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">11101</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">C</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">124</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-10-15T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Deep Purple</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Hallenstadion, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">6079</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">C</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">125</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-10-16T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Kaffkiez </Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Exil, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">300</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">126</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">16.10.202228</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">AJR</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">X-TRA, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">995</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">128</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">19.10.202229</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Cordae</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Dynamo, Zürich</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">450</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">129</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">19.10.202230</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Editors </Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Volkshaus, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1072</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">130</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-10-20T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Harlem Globetrotters</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Hallenstadion, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">2791</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">C</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">131</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-10-22T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Chris de Burgh</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">THE HALL, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1953</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">132</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-10-29T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Placebo</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">THE HALL, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">4744</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">C</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">134</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-11-03T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Rise Against</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Halle 622, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">2244</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">C</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">135</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-11-04T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Hecht</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Hallenstadion, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">13616</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">C</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">137</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-11-07T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">James Bay</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">X-TRA, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1803</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">138</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-11-08T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Only The Poets</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Dynamo, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">358</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">139</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-11-11T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Steve 'n' Seagulls</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Dynamo, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">490</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">140</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-11-13T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Kakkmaddafakka</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Exil, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">254</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">141</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-11-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Upsahl</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Papiersaal, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">118</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">142</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-11-19T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">JP Cooper</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Plaza, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">427</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">143</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">19.11.202231</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">The Cure</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">St. Jakobshalle, Basel</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">9335</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">C</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">144</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-11-21T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Trixie &amp; Katya</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">THE HALL, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1875</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">146</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-11-26T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Alexander 23</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Mascotte, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">131</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">147</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-11-27T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Il Civetto</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Exil, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">180</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">148</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">27.11.202232</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Bastille</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Halle 622, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">2390</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">C</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">149</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-11-29T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Bomba Estereo</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Kaufleuten, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">688</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-11-30T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Sophie and the Giants </Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Exil, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">132</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">151</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-12-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Gianna Nannini</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Hallenstadion, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">4619</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">C</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">153</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-12-03T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Lo &amp; Leduc</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Volkshaus, Basel</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1011</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">154</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">03.12.202233</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Liedfett</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Werk21, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">200</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">155</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-12-05T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Konstantin Wecker</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">KKL, Luzern</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">867</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">156</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-12-08T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">LOTTE</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Exil, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">300</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">157</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">08.12.202234</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Ennio Morricone </Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Hallenstadion, Zürich</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">2298</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">C</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">159</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">14.12.202235</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Viagra Boys </Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">X-TRA, Zürich</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1450</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">160</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-12-15T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Marteria</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">THE HALL, Zürich</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1300</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">161</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">15.12.202236</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">LITFIBA </Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Volkshaus, Zürich</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1250</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">162</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2022-12-16T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Nightwish</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Hallenstadion, Zürich</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">10000</Data></Cell>
+    <Cell
+     ss:Formula="=IF(#REF!&lt;500,&quot;A&quot;,IF(#REF!&lt;2000,&quot;B&quot;,IF(#REF!&lt;20000,&quot;C&quot;,&quot;D&quot;)))"><Data
+      ss:Type="String">C</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.78740157499999996" x:Left="0.7" x:Right="0.7"
+     x:Top="0.78740157499999996"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <TopRowVisible>123</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>10</ActiveRow>
+     <ActiveCol>8</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
