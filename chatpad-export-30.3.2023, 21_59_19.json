@@ -1,0 +1,735 @@
+{
+  "formatName": "dexie",
+  "formatVersion": 1,
+  "data": {
+    "databaseName": "chatpad",
+    "databaseVersion": 2,
+    "tables": [
+      {
+        "name": "chats",
+        "schema": "id,createdAt",
+        "rowCount": 5
+      },
+      {
+        "name": "messages",
+        "schema": "id,chatId,createdAt",
+        "rowCount": 63
+      },
+      {
+        "name": "prompts",
+        "schema": "id,createdAt",
+        "rowCount": 0
+      },
+      {
+        "name": "settings",
+        "schema": "id",
+        "rowCount": 1
+      }
+    ],
+    "data": [
+      {
+        "tableName": "chats",
+        "inbound": true,
+        "rows": [
+          {
+            "id": "2Dc4B9r2zA6U_yUz_63mi",
+            "description": "\"Impurity Effects in Semiconductors: Degenerate Perturbation Theory\"",
+            "totalTokens": 2347,
+            "createdAt": 1680106909476,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "8u48XqLmYbDzt40KCC8Et",
+            "description": "Nachhaltigkeitsberatung Gadget AG",
+            "totalTokens": 8032,
+            "createdAt": 1680123263566,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "nGzxnokkGM7o2GSBq8lpz",
+            "description": "Excel Formula for Cell Value Categorization.",
+            "totalTokens": 1844,
+            "createdAt": 1680098144217,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "osKPeUzZG6fMiThEsIm-B",
+            "description": "Radar Festival 2023: Fördergesuch",
+            "totalTokens": 53438,
+            "createdAt": 1680191156517,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "uG-HpguvAYK9PbD7-2Lhn",
+            "description": "Swiss Live Music CO2 Reduction Analysis",
+            "totalTokens": 53023,
+            "createdAt": 1680093714353,
+            "$types": {
+              "createdAt": "date"
+            }
+          }
+        ]
+      },
+      {
+        "tableName": "messages",
+        "inbound": true,
+        "rows": [
+          {
+            "id": "0NGVliPyxd9Iv3USpnTyk",
+            "chatId": "8u48XqLmYbDzt40KCC8Et",
+            "content": "rewrite this prompt (prompt_org so its not about healthcare documents but about documents on the sustainability strategy, actions and monitoring if the organization Gadget (Gadget abc Entertainment Group AG). Also translate it to german and integrate the most important parts of this prompt: \"Du bist ein Nachhaltigkeitsanalyst, der sich auf die Live-Musikindustrie in der Schweiz spezialisiert hat. Dein Ziel ist es, die CO2-Emissionen so weit wie möglich zu reduzieren, die Besucher für Umweltthemen zu sensibilisieren, um zukünftige Einsparungen durch nachhaltigeres Verhalten zu erzielen, und sicherzustellen, dass alle Akteure, die von den Maßnahmen betroffen sind, maximal kooperationsbereit sind. Gib detaillierte Anweisungen, wie du diese Ziele erreichen würdest, einschließlich der besten Kanäle, um die Stakeholder auf Nachhaltigkeitsfragen und Lösungen aufmerksam zu machen.\"\n\n\nprompt_org:\nAssistant helps the company employees with their healthcare plan questions, and questions about the employee handbook. Be brief in your answers.\nAnswer ONLY with the facts listed in the list of sources below. If there isn't enough information below, say you don't know. Do not generate answers that don't use the sources below. If asking a clarifying question to the user would help, ask the question.\nFor tabular information return it as an html table. Do not return markdown format.\nEach source has a name followed by colon and the actual information, always include the source name for each fact you use in the response. Use square brakets to reference the source, e.g. [info1.txt]. Don't combine sources, list each source separately, e.g. [info1.txt][info2.pdf].",
+            "role": "user",
+            "createdAt": 1680123506765,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "2EL0Pv_RA3qWHoLRyEtxw",
+            "chatId": "osKPeUzZG6fMiThEsIm-B",
+            "content": "[Vorname Nachname]\n[Funktion]\n[Organisation / Förderinstitution]\n[Adresse der Förderinstitution]\n[PLZ] [Stadt]\n\n[Stadt], [Datum]\n\n\nBetreff: Fördergesuch für das Radar Festival 2023\n\nSehr geehrte Damen und Herren,\n\nMit großer Freude blicken wir auf das erfolgreiche Radar Festival 2022 zurück, das am [Datum 2022] in Zürich stattfand. Das eintägige Musikfestival, das jährlich rund um die Zürcher Langstrasse stattfindet, präsentiert die vielversprechendsten nationalen und internationalen Newcomer in unterschiedlichsten Genres.\n\nAls [Ihre Funktion] bei der Gadget abc Entertainment AG und Veranstalter des Radar Festivals ist es mir eine besondere Ehre, im Namen unseres Unternehmens ein Fördergesuch für das Radar Festival 2023 an Ihre geschätzte Institution zu richten. Das geplante Datum für die nächste Ausgabe des Festivals ist [Datum 2023].\n\nUnsere Vision geht über die bloße Präsentation der kulturell vielfältigen Künstlerinnen und Künstler hinaus. Wir sind bestrebt, mit aufstrebenden Talenten auf der Bühne und hinter den Kulissen zusammenzuarbeiten, sie zu präsentieren und zu unterstützen, um nachhaltige Karrieren zu fördern und eine führende Rolle in der Musikindustrie zu übernehmen. \n\nIn der Anlage finden Sie folgende Dokumente, welche unser Festival und die damit verbundenen Bedürfnisse und Ziele detailliert beschreiben:\n\n1. Festival-Konzept: Ein detailliertes Konzept, das sowohl unsere Vision als auch die organisatorischen Details des Radar Festivals 2023 erläutert.\n2. Werte und Mission des Festivals: Unsere zentralen Werte, Ziele und langfristige Visionen für das Radar Festival.\n3. Budgetübersicht: Eine detaillierte Budgetübersicht für das Radar Festival 2023, einschließlich geplanter Einnahmen und Ausgaben.\n4. Erfolge / Meilensteine des letzten Radar Festivals 2022: Eine Zusammenfassung unserer jüngsten Erfolge.\n5. Partnerschaften / Zusammenarbeit: Eine Übersicht über bisherige und angestrebte Partnerschaften und die erfolgreiche Zusammenarbeit mit Sponsoren oder Förderinstitutionen.\n\nWir ersuchen um einen Förderbeitrag von [betrag] Franken, um die erfolgreiche Fortführung dieses wichtigen Musikfestivals in der Schweizer Kulturlandschaft zu gewährleisten.\n\nVielen Dank für Ihre wohlwollende Prüfung unseres Gesuchs. Wir stehen Ihnen jederzeit für weitere Informationen oder Erläuterungen zur Verfügung und würden uns freuen, wenn Sie uns kontaktieren würden. Wir hoffen sehr, dass Ihre Institution das Radar Festival 2023 unterstützen kann und freuen uns auf die Möglichkeit einer erfolgreichen Partnerschaft.\n\nMit freundlichen Grüßen,\n\n[Vorname Nachname]\n[Funktion]\nGadget abc Entertainment AG\n[Email-Adresse]\n[Telefonnummer]",
+            "role": "assistant",
+            "createdAt": 1680192588266,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "3PhrAm1JkzyitYjGQPYPU",
+            "chatId": "osKPeUzZG6fMiThEsIm-B",
+            "content": "Werte und Mission des Radar Festivals\n\nDas Radar Festival ist ein aufstrebendes Musikfestival, das sich auf die Präsentation und Förderung vielfältiger lokaler, nationaler und internationaler Talente konzentriert. Im Folgenden werden die grundlegenden Werte und Missionen des Festivals beschrieben.\n\n1. Fördern neuer Musik und aufstrebender Künstler*innen\nDas Radar Festival hat sich zum Ziel gesetzt, eine Plattform für vielversprechende neue Talente aus verschiedenen musikalischen Stilrichtungen zu schaffen, indem es Newcomer-Künstler*innen aus der Schweiz und dem internationalen Raum präsentiert, ihren Bekanntheitsgrad erhöht und ihnen die Möglichkeit bietet, sich mit einem interessierten Publikum auszutauschen.\n\n2. Schaffen von Diversität und Chancengleichheit\nWir sind uns bewusst, wie wichtig Diversität und Chancengleichheit in der Musikindustrie sind und streben deshalb eine ausgewogene Vertretung von Geschlecht, regionaler Herkunft und musikalischen Genres innerhalb unseres Line-Ups an. Es liegt in unserer Verantwortung, verschiedene Perspektiven, Einflüsse und Stimmen zu fördern, um ein inklusiveres und vielfältigeres kulturelles Erlebnis zu bieten.\n\n3. Gemeinschaft und Erweiterung des kulturellen Horizonts\nDas Radar Festival möchte ein besonderes Festivalerlebnis schaffen, das die Entdeckung neuer Musik und die Gemeinschaft fördert. Wir wollen Zusammenarbeit und Synergien innerhalb der Musikszene und darüber hinaus aufbauen, um das musikalische Verständnis und den kulturellen Horizont unseres Publikums zu erweitern, indem wir auch Veranstaltungen wie Panels und Workshops anbieten.\n\n4. Beitrag zur Veränderung und Innovation in der Musikbranche\nDas Radar Festival sieht sich als Katalysator für positive Veränderungen in der Musikbranche, indem es aufstrebenden Künstler*innen eine faire Entlohnung, Fördermöglichkeiten und die Schaffung einer unterstützenden Community anbietet, in der sie ihr Potential entfalten können.\n\n5. Langfristiges Wachstum und nachhaltige Entwicklung\nWir streben nach einem organischen und langfristigen Wachstum des Radar Festivals, indem wir uns auf die Qualität der Erfahrungen, die wir schaffen, konzentrieren und die Beziehungen zwischen Künstler*innen, Branchenvertreter*innen und unserem Publikum fördern. Gleichzeitig sind wir bestrebt, umweltfreundliche und sozial verantwortliche Praktiken in unsere Veranstaltungsplanung zu integrieren, um eine nachhaltige Zukunft für das Festival sicherzustellen.\n\nZusammengefasst zielen die Werte und Missionen des Radar Festivals darauf ab, aufstrebende Künstler*innen zu fördern, Diversität und Chancengleichheit zu stärken, eine erweiterte Verständigung von kulturellen und musikalischen Perspektiven zu unterstützen und dabei nachhaltig und verantwortungsbewusst zu agieren.",
+            "role": "assistant",
+            "createdAt": 1680205870940,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "51JOkLQpfz8VLjVFSHyaO",
+            "chatId": "uG-HpguvAYK9PbD7-2Lhn",
+            "content": "Frage 3: hier ist eine auflistung aller artists, welche im jahr 2022 bei unseren konzerten gespielt haben, sowie ihr herkunftsland:\n\nArtist\tHerkunftsland\n5 Seconds of Summer\tAustralien\nAJR\tUSA\nAlan Walker\tNorwegen\nAlexander 23\tUSA\nAlvaro Soler\tSpanien\nAmy Macdonald\tSchottland\nAnastacia\tUSA\nAries\tUSA\nAurora\tNorwegen\nBastian Baker\tSchweiz\nBastille\tEngland\nBeck\tUSA\nBen Harper & The Innocent Criminals\tUSA\nBiffy Clyro\tSchottland\nBomba Estéreo\tKolumbien\nBonobo\tEngland\nBryan Adams\tKanada\nCalum Scott\tEngland\nCat Power\tUSA\nChilly Gonzales\tKanada\nChris De Burgh\tIrland\nClawfinger\tSchweden\nClueso\tDeutschland\nConan Gray\tUSA\nCory Wong\tUSA\nDabu Fantastic\tSchweiz\nDaniel Sloss\tSchottland\nDavid Garrett & Band\tDeutschland\nDeep Purple\tEngland\nDeine Cousine\tDeutschland\nDita Von Teese\tUSA\nEasy Life\tEngland\nEditors\tEngland\nElectric Callboy\tDeutschland\nElton John\tEngland\nEngst\tDeutschland\nEnnio Morricone\tItalien\nEric Clapton\tEngland\nFletcher\tUSA\nFontaines D.C\tIrland\nGianna Nannini\tItalien\nHarlem Globetrotters\tUSA\nHECHT\tSchweiz\nHeimweh\tÖsterreich\nHot Milk\tEngland\nIl Civetto\tDeutschland\nImagine Dragons\tUSA\nImminence\tSchweden\nJames Bay\tEngland\nJames Blunt\tEngland\nJames Morrison\tEngland\nJan Delay & Disko No.1 - Earth, Wind & Feiern Live\tDeutschland\nJeremy Zucker\tUSA\nJoris\tDeutschland\nJP Cooper\tEngland\nJuanes\tKolumbien\nJules Ahoi\tDeutschland\nJustin Jesso\tUSA\nKaffkiez\tDeutschland\nKakkmaddafakka\tNorwegen\nKhruangbin\tUSA\nKids of Adelaide\tDeutschland\nKings of Convenience\tNorwegen\nKonstantin Wecker\tDeutschland\nLiedfett\tDeutschland\nLo & Leduc\tSchweiz\nLorde\tNeuseeland\nLOTTE\tDeutschland\nLouis Tomlinson\tEngland\nLuna\tDeutschland\nMighty Oaks\tDeutschland\nMilky Chance\tDeutschland\nMitski\tUSA\nMONO\tJapan\nNick Mason's Saucerful Of Secrets\tEngland\nNothing but Thieves\tEngland\nÓlafur Arnalds\tIsland\nOlivia Rodrigo\tUSA\nOneRepublic\tUSA\nOnly The Poets\tEngland\nPaolo Nutini\tSchottland\nParcels\tAustralien\nParov Stelar - VENOM TOUR\tÖsterreich\nParra for Cuva\tDeutschland\nPatent Ochsner\tSchweiz\nPaul Kalkbrenner\tDeutschland\nPaw Patrol LIVE! Das grosse Rennen\tUSA\nPearl Jam\tUSA\nPegasus\tSchweiz\nPet Shop Boys\tEngland\nPeter Maffay & Band\tDeutschland\nPlacebo\tEngland\nProvinz\tDeutschland\nQueen & Adam Lambert\tEngland\nRadar\tDeutschland\nRammstein\tDeutschland\nRise Against\tUSA\nROLE MODEL\tUSA\nSCOOTER\tDeutschland\nSeven\tSchweiz\nSigur Rós\tIsland\nSimple Minds\tSchottland\nSophie and the Giants\tEngland\nSteve ’n’ Seagulls\tFinnland\nSunrise Avenue\tFinnland\nThe Cure\tEngland\nThe Cure\tEngland\nThe War on Drugs\tUSA\nTocotronic\tDeutschland\nTom Gregory\tEngland\nTom Odell\tEngland\nTrixie & Katya\tUSA\nUpsahl\tUSA\nWilhelmine\tDeutschland\nWincent Weiss\tDeutschland\nWWE LIVE\tUSA\nZAZ\tFrankreich\nZucchero\tItalien\n\nFrage 4: ja, kleinere nationale Künstler kommen ehner mit dem Zug oder ein bis 2 PKWs, während grössere internationale mit mehreren LKWs, bussen, etc. anreisen. mach hier selbst eine einschätzung anhand der artist liste oben.\n",
+            "role": "user",
+            "createdAt": 1680094690599,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "5neL0fMZ5DfesYoMtSjtd",
+            "chatId": "osKPeUzZG6fMiThEsIm-B",
+            "content": "Könntest du mir bitte das Budget des Radar Festivals vom letzten Jahr (2021) zur Verfügung stellen? Diese Informationen würden helfen, ein detailliertes und fundiertes Fördergesuch für das Radar Festival 2023 zu verfassen und mögliche finanzielle Bedürfnisse aufzuzeigen.",
+            "role": "assistant",
+            "createdAt": 1680191325523,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "6HZyQZumuudFnjlOQwhj4",
+            "chatId": "8u48XqLmYbDzt40KCC8Et",
+            "content": "schreibe den text in der Du-Form um",
+            "role": "user",
+            "createdAt": 1680123743245,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "9842DORjC_BPEqDJVKgK0",
+            "chatId": "nGzxnokkGM7o2GSBq8lpz",
+            "content": "Kein Problem, hier ist die Formel in der deutschen Excel-Version:\n\n=WENN(B2<500;\"A\";WENN(B2<2000;\"B\";WENN(B2<20000;\"C\";\"D\")))\n\nDiese verwendet die deutsche Variante der IF-Funktion, die WENN-Funktion genannt wird. Die Formel prüft zuerst, ob der Wert in Zelle B2 kleiner als 500 ist. Wenn ja, gibt die Formel \"A\" zurück. Wenn nicht, prüft sie, ob der Wert in Zelle B2 zwischen 500 und 2000 liegt. Wenn ja, gibt die Formel \"B\" zurück. Wenn nicht, prüft sie, ob der Wert in Zelle B2 zwischen 2000 und 20000 liegt. Wenn ja, gibt die Formel \"C\" zurück. Wenn nicht, gibt sie \"D\" zurück.",
+            "role": "assistant",
+            "createdAt": 1680098312716,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "9ONmkFKDzg8gRWk5DWqPU",
+            "chatId": "osKPeUzZG6fMiThEsIm-B",
+            "content": "weiter mit dem nächsten dokument",
+            "role": "user",
+            "createdAt": 1680206201496,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "A1_xsPtCBy-All9VlNz94",
+            "chatId": "uG-HpguvAYK9PbD7-2Lhn",
+            "content": "die artists selber reisen international fast immer mit dem flugzeug an, ihre gesamte crew und support staff jedoch mit Bussen. ",
+            "role": "user",
+            "createdAt": 1680094089702,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "AeUhTdL6wRgOALsQUHeNA",
+            "chatId": "osKPeUzZG6fMiThEsIm-B",
+            "content": "Zürich, 25. April 2022\nGesuch Förderbeitrag Radar Festival Zürich 2022 / 4. Durchführung 17.09.2022\n\nSehr geehrte Damen und Herren\n\nAm 02. März 2020 fand das RADAR – Festival For New Music bereits das dritte Mal statt. Es war das\nletzte Festival vor Pandemie Beginn und leider mussten wir 2021 ohne unser Herzensprojekt\nmusikalisch überbrücken. Umso motivierter planen wir nun das Radar Festival für am 17. September 2022.\n\nMit dem Radar Festival, will die Gadget abc Entertainment Group AG eine Plattform für junge Talente und damit ein relevantes Gefäss zur Förderung popkultureller Musik bieten. Wir glauben an Talente und die Wichtigkeit der individuellen Förderung und begleiten junge Künstlerinnen und Künstler konsequent auf ihrem Weg.\n\nDas Festival zelebriert die musikalische Vielfalt und präsentiert einem musikaffinen Publikum die vielversprechendsten lokalen, nationalen und internationalen Talente. Die Vision geht über die blosse Präsentation kulturell vielfältiger Künstler:innen hinaus und umfasst auch die Suche nach Möglichkeiten, mit Newcomer Künstler:innen auf der Bühne und hinter den Kulissen zusammenzuarbeiten, sie zu präsentieren und zu unterstützen, um nachhaltig deren Karrieren zu fördern und in der Musikindustrie Fuss fassen zu können.\n\nAusserdem wollen wir das Festival weiterhin organisch weiterentwickeln. Auch sehen wir das Potenzial beim Wachstum des Zürcher Kreis 4 & 5, die mit dem Negrellisteg und weiteren Eventlocations einen Aufschwung erlebt haben. Benchmarks sind die internationalen Showcase Festivals „Reeperbahnfestival“ in Hamburg, „Eurosonic“ in Groningen sowie „Mama“ in Paris. \n\nDas Radar war auch letztes Mal mit 1500 Besuchern ausverkauft, die Besucher:innenzahl und das Interesse wachsen stetig. In acht Locations rund um die Langstrasse Zürich, gab es 40 nationale und internationale Newcomer Acts zu entdecken. Mit Ta‘shan, Jessiquoi, Daens und weiteren CH Acts konnten wir das Radar mit ca. 50% Anteil der Nationalen Acts bestätigen. Das Festival 2022 verspricht erneut ein feines Programm voll mit guter und junger Musik die dringend gehört werden muss. \n\nDer Beilage können Sie das aktuelle Konzept inklusive Budget 2022 entnehmen. Wir rechnen für die vierte Ausgabe mit einem strukturellen Defizit von CHF 25‘500. Gerne möchten wir von Domestic Sounds ein Gesuch für einen Förderbeitrag von CHF 5‘000 für die vierte Durchführung stellen.\n\n\nWir hoffen insbesondere auch für das nächste Jahr auf Eure Unterstützung, mit dem Ziel, Schweizer Künstlerinnen und Künstlern zu fördern und entdecken. \n\nBesten Dank für Ihre wohlwollende Prüfung und freundliche Grüsse,\n\n \nFabienne Wolfschläger\nGadget abc Entertainment AG\n\n\n---------\nPrompt: GPT, erstelle mir nun eine übersicht über die Dokumente, welche du später erstellen wirst, damit wir sie für diesjährige Fördergesuche an diverese Institutionen nutzen können. Frage nach, falls du mehr Infos brauchst und setzte in den Vorlagen Informationen, welche später von uns noch eingefügt werden müssen in Klammern, z.B.: [fehlende Infos]\n",
+            "role": "user",
+            "createdAt": 1680192340873,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "AyrDVZHrZmAbj2bmbTyDC",
+            "chatId": "8u48XqLmYbDzt40KCC8Et",
+            "content": "rewrite this prompt (prompt_org so its not about healthcare documents but about documents on the sustainability strategy, actions and monitoring if the organization Gadget (Gadget abc Entertainment Group AG). Also translate it to german. Schreibe in der DU-Form.\n\nprompt_org: Assistant helps the company employees with their healthcare plan questions, and questions about the employee handbook. Be brief in your answers. Answer ONLY with the facts listed in the list of sources below. If there isn't enough information below, say you don't know. Do not generate answers that don't use the sources below. If asking a clarifying question to the user would help, ask the question. For tabular information return it as an html table. Do not return markdown format. Each source has a name followed by colon and the actual information, always include the source name for each fact you use in the response. Use square brakets to reference the source, e.g. [info1.txt]. Don't combine sources, list each source separately, e.g. [info1.txt][info2.pdf].",
+            "role": "user",
+            "createdAt": 1680123840862,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "BCwnCOi383jZvkfQs4oyB",
+            "chatId": "uG-HpguvAYK9PbD7-2Lhn",
+            "content": "die artists kommen bei kleineren konzerten lokal angereist (10-200km), oder international mit dem flieger, meist aus europa, auch mit LKWs als teil einer tour, oder von noch weiter",
+            "role": "user",
+            "createdAt": 1680093994971,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "Bv2b50rC6NsonFbhgFY69",
+            "chatId": "osKPeUzZG6fMiThEsIm-B",
+            "content": "weiter mit dem nächsten dokument",
+            "role": "user",
+            "createdAt": 1680206069454,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "FB-P8LgzsLdhNYRFB5XNC",
+            "chatId": "8u48XqLmYbDzt40KCC8Et",
+            "content": "übersetze diesen prompt auf deutsch: \n\nGenerate three very brief follow-up questions that the user would likely ask next about their healthcare plan and employee handbook. \n    Use double angle brackets to reference the questions, e.g. <<Are there exclusions for prescriptions?>>.\n    Try not to repeat questions that have already been asked.\n    Only generate questions and do not generate any text before or after the questions, such as 'Next Questions'\"\"\"",
+            "role": "user",
+            "createdAt": 1680126626323,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "FmrONkUao2Sy_cNVgLMbc",
+            "chatId": "2Dc4B9r2zA6U_yUz_63mi",
+            "content": "You are a material scientist. You're analytical and problem solving oriented. Give clear, informative output. here is your job:\n\nThink of a situation in regard to materials, where degenerate perturbation theory needs to be applied. Give an example.",
+            "role": "user",
+            "createdAt": 1680107086754,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "FwTzPr294K_gNR-wt4-sC",
+            "chatId": "uG-HpguvAYK9PbD7-2Lhn",
+            "content": "Informationen zum Unternehmen Gadget 1 Geschichte Gadget: Anfang 2020 schliesslich, legen die seit einigen Jahren erfolgreich im Wepromote-Verbund tätigen Unternehmen, um das OpenAir St.Gallen, weitere Festivals und Partneragenturen, ihre Geschäfte mit Gadget zusammen und schliessen sich der CTS Eventim an. Der europäische Branchenprimus bringt als Hauptaktionär die Geschäfte der abc Gruppe in das neue Unternehmen ein, dass fortan als Gadget abc Entertainment Group AG firmiert. Damit schliesst sich der Kreis der fünf Partner und weiteren langjährigen Vertrauten, die als vielseitige Branchenexperten und leidenschaftliche Musikfans künftig als Marktführer unter einer Flagge gemeinsam für ein durchgängiges Musikerlebnis in den Bereichen Live-Entertainment (Shows & Touring), Festivals, Artist Management inkl. Label & Publishing, Event Management, Hospitality sowie Brand Partnerships (Vermarktung, Beratung und Aktivierung) stehen. 2 Facts & Figures: • Mitarbeiter: 48 • Firmen-Standorte: Zürich, St.Gallen, Bern • Anzahl Shows pro Jahr: rund 500 • Eigene Festivals: 6 (Openair St.Gallen, SummerDays, Seaside Festival, Unique Moments, Radar Festival, Spex Festival) 3 Memberships Vereine & Dachorganisationen Gadget: • IFPI Schweiz • MMF Suisse • Suissimage • Swiss Music Promoters Association (SMPA) • Yourope – The European Festival Association 4 Teams innerhalb Gadgets: • Management • Consulting • Concerts & Touring • Festivals & Events • Artists & Brands • Business Operations • Finance & Administration Nachhaltigkeitsstrategie: Green Gadget Zusammenfassung der Nachhaltigkeitsstrategie Green Gadget Green Gadget ist das neue Nachhaltigkeitsprogramm der Gadget abc Entertainment Group AG. Unter diesem werden alle Massnahmen zur nachhaltigeren Gestaltung des Engagements als 360° Musikagentur und zur Verringerung des ökologischen Fussabdrucks gebündelt. Gemeinsam mit dem Launch und Sustainability Partner SENN sowie der Expertise von Umsetzungspartner myclimate wird nach einer initialen CO2-Analyse ein mehrjähriger Massnahmenplan entwickelt, um die Veranstaltungs- und Kulturbranche dem anspruchsvollen Ziel Netto-Null-Emissionen näher zu bringen. Als 360° Musikagentur ist es der Anspruch, auf jeder Prozessebene der Wertschöpfungskette verantwortungsvoll zu handeln. Die Vision von Gadget abc gemäss Leitbild lautet: «Als zivilgesellschaftlicher und wirtschaftlicher Player in der Kultur- und Unterhaltungsbranche mit hohem Verantwortungs- und Sendungsbewusstsein gegenüber unserer Umwelt und der Gesellschaft, aber vor allem auch nachkommenden Generationen, ist die Wirtschaftlichkeit unter nachhaltiger Perspektive ein Kernpunkt unseres Handelns. Wir wollen unserer Vorbildfunktion entsprechend als Inspiration dienen und das Bewusstsein für nachhaltiges Handeln fördern. Dazu wollen wir auf alle Stakeholder Einfluss nehmen, vor allem auf Lieferant:innen, Künstler:innen, Partner:innen und Besucher:innen.» Mit dem Launch von Green Gadget erhält dieser Anspruch seine Umsetzung und Entsprechung. Gemeinsam mit dem Lancierungspartner von Green Gadget SENN und myclimate wird im Rahmen einer Nachhaltigkeitsstrategie eine umfassende CO2-Analyse aller Arbeitsbereiche und -felder der Gadget abc Entertainment Group AG durchgeführt. Davon abgeleitet wird ein mehrjähriger Massnahmenplan inklusive CO2-Absenkungspfad erarbeitet, welcher konkrete Ziele, Projekte, Problemfelder und Kommunikationsmöglichkeiten in Bezug auf das nachhaltige Handeln von Gadget abc festlegt – spezifisch auf die einzelnen Geschäftsfelder zugeschnitten. Zur Sensibilisierung der verschiedenen Stakeholder sollen zudem Green Rider, die Mindeststandards für eine Zusammenarbeit zusammenfassen und festsetzen, für alle Gadget Streams entstehen. Ein ganz besonderes Anliegen ist die transparente Veröffentlichung eines jährlichen Monitorings und Reportings, anhand welcher sich die Erfüllung oder Nichterfüllung der Zielvorgaben nachvollziehen lassen. So soll in Zusammenarbeit mit Partner:innen der positive Einfluss auf die Umwelt maximiert, respektive der negative Einfluss minimiert werden. Konkrete Umsetzungen im Rahmen der Lancierung von Green Gadget über die nächsten fünf Jahre: • Co2-Analyse Und Massnahmenplan In Zusammenarbeit mit Myclimate • Schaffung Einer Neuen Stelle: Sustainability Manager • Einführung Eines Monitorings Und Reportings, Das Transparent Das Engagement Von Gadget Abc aufzeigt • Mit Launch Und Sustainability Partner Senn Werden Unsere Stake-Holder Für Das Thema Umfassend sensibilisiert • Einführung Von Green Ridern Für Stakeholder",
+            "role": "user",
+            "createdAt": 1680093834246,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "Hq51cnhtBaYDj8RLgYpUu",
+            "chatId": "uG-HpguvAYK9PbD7-2Lhn",
+            "content": "led wird bereits verwendet, ansonsten noch nicht viel geplant. wie gesagt ist aller strom aus erneuerbaren quellen.",
+            "role": "user",
+            "createdAt": 1680094936157,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "MYimd133eZbtdJ9IbEErS",
+            "chatId": "uG-HpguvAYK9PbD7-2Lhn",
+            "content": "nein, hauptsächlich getränke, dies ist aber alle von den venues organisiert. alles bezüglich gastro, strom, heizen etc. ist sache der veranstaltungsorte, wir als veranstalter haben darauf nur begrenzt einfluss.",
+            "role": "user",
+            "createdAt": 1680094875461,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "NKibc0Kxu-VkDugF6_JHx",
+            "chatId": "osKPeUzZG6fMiThEsIm-B",
+            "content": "Im Folgenden findest du eine Übersicht der Dokumente, die erstellt werden, um das Fördergesuch für das Radar Festival 2023 bei verschiedenen Institutionen einzureichen:\n\n1. Begleitschreiben\nEin individuell angepasstes Begleitschreiben für jede Förderinstitution, das den Zweck des Gesuchs, die Ziele des Festivals und besondere Erfolge des letzten Jahres hervorhebt. [Anpassungen an die jeweilige Institution und das Festival 2023 einfügen]\n\n2. Festival-Konzept\nEine detaillierte Darstellung des aktuellen Konzepts des Radar Festivals 2023, einschließlich Veranstaltungsorten, künstlerischem Ansatz, geplanter Aktivitäten sowie der gezielten Förderung von Diversität und Nachwuchstalenten. [2023-spezifische Änderungen und Details aktualisieren]\n\n3. Das Radar Festival 2022 – Kurzer Rückblick\nEin Überblick über das Radar Festival 2022, einschließlich Line-Up, Veranstaltungsorten, Promotion-Text und Ankündigung der erfolgreichen vierten Ausgabe. [Erfolge und Meilensteine aus dem Festival 2022 einfügen]\n\n4. Werte und Mission des Festivals\nEine ausführliche Darstellung der Werte und Überzeugungen des Festivals, der Ziele und Erwartungen sowie der geplanten Wachstumsstrategien und langfristigen Visionen. [Ziele und Strategien aktualisieren, um den Planungen für das Festival 2023 gerecht zu werden]\n\n5. Budgetübersicht\nEine detaillierte Budgetübersicht für das Radar Festival 2023, einschließlich geplanter Einnahmen und Ausgaben sowie der benötigten Finanzierung. [2023-spezifische Zahlen und Details einfügen]\n\n6. Partnerschaften und Zusammenarbeit\nInformationen über bisherige und angestrebte Partnerschaften mit Marken, Sponsoren oder Förderinstitutionen, einschließlich Beispielen erfolgreicher Kooperationen und der Konzeption von Partnerwelten. [Aktuelle und potenzielle Partner, sowie Kooperationsdetails aktualisieren]\n\n\nBitte gib an, welche weiteren Informationen oder Anpassungen benötigt werden und plane Zeit, um sie hinzuzufügen, bevor wir die Fördergesuche an verschiedene Institutionen senden.",
+            "role": "assistant",
+            "createdAt": 1680192417283,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "NdeYtfk-0szPak5h42Lf_",
+            "chatId": "osKPeUzZG6fMiThEsIm-B",
+            "content": "Erfolge und Meilensteine des Radar Festivals 2022\n\nIm Folgenden sind einige der wichtigsten Erfolge und Meilensteine des Radar Festivals 2022 aufgeführt. Diese Informationen können dazu beitragen, das Fördergesuch für das Radar Festival 2023 zu stärken und die positive Wirkung des Festivals auf die Musikszene zu verdeutlichen.\n\n1. Ausverkaufte Veranstaltung\nDas Radar Festival 2022 war erneut ausverkauft und zog 2.000 Musikliebhaber*innen aus der ganzen Schweiz und dem Ausland an. Dies unterstreicht nicht nur die Beliebtheit des Festivals, sondern auch das Interesse und das Bedürfnis, den aufstrebenden Künstler*innen eine Plattform zu bieten.\n\n2. Erweiterte Präsenz und Reichweite\nDas Radar Festival 2022 fand in über acht Locations entlang der Langstrasse in Zürich statt, was sein Wachstum und seine Erweiterung seit seiner Gründung im Jahr 2018 zeigt. Die Veranstaltungsorte boten dem Publikum eine Vielzahl von Räumen und Gelegenheiten, aufstrebende Künstler*innen zu entdecken und ihre Live-Auftritte zu genießen.\n\n3. Vielfältiges und renommiertes Line-Up\nDas Radar Festival 2022 präsentierte ein beeindruckendes Line-Up aus mehr als 25 aufstrebenden nationalen und internationalen Künstler*innen, die unterschiedlichste Genres repräsentierten. Die Veranstaltung bot einen einzigartigen Einblick in die aufregende und facettenreiche Welt der neuen Musik.\n\n4. Inclusion und Diversität\nDie diesjährige Veranstaltung bekräftigte das Radar Festival in seiner Rolle als Förderer von Diversität und Inklusion innerhalb der Musikindustrie. Die Bemühungen, eine ausgewogene Vertretung von Geschlecht, nationaler Herkunft und musikalischen Stilrichtungen innerhalb des Line-Ups zu gewährleisten, waren erfolgreich und spiegelten die Werte des Festivals wider.\n\n5. Begeisterte Reaktionen und positive Bewertungen\nDas Radar Festival 2022 erhielt begeisterte Reaktionen und positive Bewertungen von Besucher*innen, Medien und Musikindustrieexperten. Diese Resonanz zeigt die Bedeutung des Festivals als Plattform für neue Musik und dessen Rolle als Katalysator für aufstrebende Talente.\n\nDiese Erfolge und Meilensteine aus dem Radar Festival 2022 verdeutlichen das Potenzial und den Einfluss der Veranstaltung. Sie bieten starke Argumente, um Förderinstitutionen von der Notwendigkeit und der Relevanz des Festivals zu überzeugen, um die Durchführung des Radar Festivals 2023 erfolgreich zu unterstützen.",
+            "role": "assistant",
+            "createdAt": 1680206159810,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "Noo5O-OzoDPUdqi15kc5b",
+            "chatId": "uG-HpguvAYK9PbD7-2Lhn",
+            "content": "Informationen aus Q&A:\n\nFrage 1: Wie viel Energie (Strom und Wärme) wird bei den durchschnittlichen Konzerten (außerhalb der Festivals) verbraucht, und wie wird diese Energie erzeugt (z.B. fossile Brennstoffe, erneuerbare Energien)?\nAntwort: wieviel energie verbraucht wird wissen wir nicht, es wird jedoch überall aussschliesslich strom  aus erneuerbaren energien genutzt.\n\n\nFrage 2: Wie erfolgt der Transport von Künstlern, Crew, Ausrüstung und Materialien zu den \nAntwort: Veranstaltungsorten, und welche Verkehrsmittel werden verwendet (z.B. Flugzeug, Zug, Bus, LKW)?\nja nach konzert, diese werden in folgende kategorien eingeteilt:\nKategorie\tVenue-Typ\tBesucheranzahl\tBeispiel Venues\tKünstler- und Crew-Anreise\tAnreise\tDatensammlungs- & Modellierungsempfehlungen\nA: Kleine lokale Konzerte\tKleine Veranstaltungsorte\tBis zu 500\tExil, Dynamo, Plaza, Mascotte, Kaufleuten\tHauptsächlich Auto/Zug\tLokal, vermehrt ÖV\t\"Verbrauchsdaten der Veranstaltungsorte sollten fokussiert werden\n\nDer Transport sollte anhand der Entfernung der Besucher und der Art des Verkehrsmittels geschätzt werden\n\nDaten zur Abfallerzeugung während der Veranstaltungen sollten gesammelt werden\"\nB: Mittelgroße lokale / regionalen Konzerte\tMittelgroße Veranstaltungsorte\t500 bis 2.000\tX-TRA, Theater 11, Volkshaus, Kongresshaus\tAuto/Zug, einige Flugreisen\tLokal / regional, vermehrt ÖV\t\"Daten über den Verbrauch an den Veranstaltungsorten sollten gesammelt werden, auch bei Spitzenlasten\n\nVerfügbare Verkehrsmitteldaten und Schätzungen sollten zur Berechnung der CO2-Emissionen genutzt werden\n\nAbfallbewirtschaftungspraktiken sollten untersucht werden, um Verbesserungspotenziale zu erkennen\"\nC: Große nationale / internationale Konzerte\tGroße Hallen\t2.000 bis 15.000\tHalle 622, The Hall, Hallenstadion\tMischung aus Auto, Zug und Flugreisen\tLokal / regional / national, mehrheitlich ÖV & einige PKWs\t\"Energieverbrauchsdaten für große Hallen sollten erfasst werden\n\nDie verschiedenen Verkehrsmittel und die Entfernungen, die Besucher zurücklegen, sollten berücksichtigt werden\n\nDaten über die Abfallmenge und Recyclingquoten bei Großveranstaltungen sollten gesammelt werden\"\nD: Konzerte in Stadien\tGroße offene Stadien\tBis zu 50.000\tLetzigrund Stadion, Stadion Wankdorf\tMischung aus Auto, Zug und Flugreisen\tLokal - international,  ÖV & PKWs\t\"Daten zum Energieverbrauch in Stadien, inklusive Dieselgeneratoren, sollten gesammelt werden\n\nInformationen zum Transport der Besucher und Künstler, insbesondere zum Flugverkehr, sollten erhoben werden\n\nAbfalldaten für Stadionkonzerte sollten erfasst werden, um mögliche Abfallreduktionen zu identifizieren\"\n\nFrage 3: Wie werden die Besucher der Konzerte und Festivals über die verschiedenen Verkehrsmittel informiert, und welche Anreize oder Möglichkeiten gibt es, um umweltfreundliche Transportoptionen wie den öffentlichen Verkehr oder Fahrradfahren zu fördern?\nAntwort: auf den tickets steht sie sollen am besten mit den öv anreisen, ansonsten keine infos.\n\nFrage 4: Welche Maßnahmen werden derzeit ergriffen, um den Energieverbrauch, den Abfall und die Umweltauswirkungen der Verpflegung und Getränke bei Konzerten und Festivals zu reduzieren?\nAntwort: keine, ausser beim openair st.gallen. hier eine zusammenfassung der nachhhaltigkeitsmassnahmen:\n\nNachhaltigkeit am  0penAir St. Gallen Partnerschaften –2010 – 2011: Partnerschaft mit  Médecins Sans Frontières. –2013 – 2015: Partnerschaft mit Terre des Hommes als Charity Partner. –Seit 2014: Eingeladene Gäste zahlen einen Charity-Beitrag, der einem Projekt des Charity Partners zu Gute kommt. –2015: Partnerschaft mit Global Citizen. –2016 – 2019: Partnerschaft mit dem Schweizerischen Roten Kreuz. –2016: Partnerschaft mit den Klimaexperten von myclimate. –Seit 2022: Partnerschaft mit Viva con Agua. Food & Beverages –Seit 2008: Bio-Stand auf dem Gelände. –Weitere Stände mit lokalen, regionalen und vegetarischen Speisen kommen stetig dazu. –Verhandlungsanreize für Stände, die lokale/regionale Produkte verkaufen. –2013: Fleisch in den Backstage- und VIP-Restaurants stammt ausschliesslich aus der Schweiz. –Seit 2015: Schweizer Fleisch auf dem ganzen Gelände. –2016: Partnerschaft mit myclimate, Analyse und Verbesserung der Nachhaltigkeit des Verpflegungsbereiches. –Seit 2017: Streetfoodcorner mit lokalen Foodständen. Merchandising –Bei der Bestellung aller Textilien wird auf eine Zertifizierung (fair und bio) geachtet. –Durch eine frühzeitige Bestellung kann die Ware per Schiff geliefert werden. –Werbeblachen werden von einer lokalen Firma umgestaltet in Portemonnaies, Taschen und Necessaires für den Festivalshop. –PA-Wing Abdeckungen werden vom Deko-Team im Backstage- und Staffbereich wiederverwendet. –Partnerschaft mit Tarzan:  Gesamte Merchandise-Kollektion und Crewshirts aus GOTS zertifizierter Bio-Baumwolle. Gelände / Abfall –Stetige Abfalltrennung seit über 25 Jahren, mittlerweile Trennung von: Karton, PET, Glas, Weissblech, Alu, Erde / Steine und Restmüll.  –Schulklassen reinigen das Gelände am Montag und Dienstag nach dem Festival und erhalten dafür einen finanziellen Beitrag an ihr Klassenlager.  –Sampling, das Verteilen von Mustern oder Flyern auf dem Gelände, wird nicht bewilligt. –Seit 1994: Glasverbot.  –Seit 2003: Dosenverbot. –Seit 2003: Trash Heroes reinigen das Gelände, verteilen Abfall säcke am Eingang und sensibilisieren das Publikum für die Abfallproblematik. –Seit 2005: Depot auf Becher, Geschirr und Besteck. –Seit 2007: Verstärkte Geländeschutzmassnahmen (Schwerlastplatten, Fahr verbot/Kontrolle, Aussprechen von Bussen bei Verstoss). –Seit 2009/10: Home Delivery Service – Bier und Mineral kann auf der Website bestellt und auf dem Gelände abgeholt werden. Diese Gebinde sind mit Depot belastet. –Seit 2010: Mehrwegbecher (Waschanlage in der Region). –Seit 2010: Getränkelimite: Nur 3 Liter pro Person erlaubt.  –Seit 2014: Zeltdepot: Für jedes mitgebrachte Zelt muss ein Depot bezahlt werden (Jeton). –Seit 2015: Verstärkung der Abfallsammelaktionen. –Seit 2015: Auf dem ganzen Gelände wird die Anzahl der «Big Bags» (Abfallbehälter mit 1 m3 Fassungsvermögen) verdoppelt – Schwerpunkt: Campingplatz. –Seit 2015: Trash Heroes machen Besucher auf eine bevorstehende Einsammelaktion  des Mülls per Megafon aufmerksam.  –2018: 15 Migranten durften bei den Trash Heroes mithelfen und konnten so das Festival als Crewmember geniessen. –2019: 50 Tonnen weniger  Abfall zum Vorjahr –2022: Gesamtheitlicher Abfall konnte erneut verringert werden. Verkehr –Fahrt mit dem Stadtbus (VBSG) und dem Shuttlebus (Parking / Bahnhof Festivalgelände) ist seit den Anfängen des Festivals im Ticket integriert. –Bis 2013: 20 % Rabatt auf Bahnticket mit Festival ticket, bei gleichzeitigem Kauf 5 % Rabatt auf Festivalticket. –Seit 2014: 50 % Rabatt auf Bahnticket (Wegfall Rabatt Festivalticket). –Maximal 3000 Parkplätze stehen zur Verfügung. Ein Parkplatz kostet CHF 60 für 4 Tage. Gesundheit/ Sicherheit & Soziales –Verstärkte Sicherheitsmassnahmen, v.a. im Crowd Control Bereich (Barriers, Patrouillen). –Verteilen von kostenlosem Gehörschutz. –Sonnenschutz-Promotion (gratis Sonnencreme für Crew und Publikum). –Die lokalen Organisationen Stiftung Suchthilfe, Jugendsekretariat und Fachstelle für AIDS- und Sexualfragen sind seit vielen Jahren mit einem Stand auf dem Gelände präsent. –Das Gelände ist weitgehend rollstuhltauglich. Menschen mit Beeinträchtigung dürfen eine Begleit person kostenlos mitbringen. Bei beiden Bühnen gibt es eine Tribüne für Rollstuhl fahrende sowie eigene WCs. Auf dem Gelände gibt es zudem ein abgegrenzter Zeltplatz für Rollstuhlfahrende. Aktivitäten/ Auszeichnungen –2004: Umweltstudie durch eine externe Firma (als erstes Festival der Schweiz). –Seit 2004: Monitoring der Massnahmen. –Seit 2007: Massnahmenkatalog und Ernennung eines Sustainability Managers. Stetige Weiterbildung in diesem Bereich, auch auf internationaler Ebene.  –2007 wurde das OpenAir St.Gallen mit dem «Green’n’Clean»-Award der Europäischen Festival Organisation YOUROPE ausgezeichnet. –Im Juni 2009 betitelte eine Studie des WWFs («Umweltperformance von Grossver anstaltungen») das OpenAir St. Gallen als «Umwelt-Champion». –2010 wurde das Festival ebenfalls mit dem «A Greener Festival»-Award ausgezeichnet. Ein Experte aus London besuchte das Festival und bewertete die diversen Massnahmen nach einem internationalen Schema. Home Delivery Service wurde als «brillant» bezeichnet. –2014 wurde eine unabhängige, auf das Festival zugeschnittene Studie zum Thema Mehrwegbecher erstellt. –Seit 2019 ist das OpenAir St.Gallen klimaneutral. –Bei der 43. Ausgabe im 2019 ist der CO2 - Ausstoss um 30 % gegenüber dem Vorjahr gesunken. –Im Januar 2020 wurde das OpenAir St.Gallen von den European Festival Awards mit dem Green Operations Award für sein langjähriges Engagement in Sachen Nachhaltigkeit ausgezeichnet. –Seit 2022 werden pro Ticket CHF 3 jedes Besuchenden in nachhaltige Projekte reinvestiert. Elektrizität –Seit 2007: Keine Diesel-Generatoren mehr auf dem Gelände. Der Energiebedarf wird vollständig über das bestehende Stromnetz bezogen. –Der gesamte Strom bedarf wird durch erneuer bare Energien gedeckt. –Seit 2012: St.Galler Strom Öko Plus auf dem ganzen Gelände. Wasser –Seit 2008: Stetige Erweiterung der sanitären Anlagen.  –Fokus auf Einsatz von Wasserklosetts. Auf Chemie-Klos wird  weitgehend verzichtet.  –Das Abwasser fliesst direkt in die Kanalisation. Kommunikation –Sensibilisierung des Publikums mittels Plakaten, Screens, Web und App. –Dieser Nachhaltigkeitsbericht wird an Stakeholder verschickt (Behörden, Lieferanten:innen, Standbetreiber:innen, Partner:innen). –Seit 2018 werden «Take a Stand» Panels durchgeführt, bei welchen sich das Publikum über Themen wie Nach- haltigkeit und Social Responsibility mit Experten der Branche austauschen können.\n\nFrage 5: Gibt es derzeit Programme zur Sensibilisierung und Schulung der Mitarbeiter, Künstler und Partner in Bezug auf Nachhaltigkeitspraktiken und umweltfreundliches Verhalten während der Veranstaltungen?\nAntwort: ein green rider ist geplant. dies ist ein dokument, welches den artists vor den konzerten und festivals geschickt wird, um sie zu nachhaltigerem Verhalten zu bewegen. Noch nicht umgesetzt.\n",
+            "role": "user",
+            "createdAt": 1680093885069,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "RQClFLMrUFU-UrbpVheKR",
+            "chatId": "2Dc4B9r2zA6U_yUz_63mi",
+            "content": "Perturbation theory finds its use in material science when dealing with defects and impurities in materials, specifically in electronic systems. A prime example would be the electronic properties of a semiconductor containing impurities or defects that modify the energy levels of the material. Let me outline a clear, step-by-step example in which degenerate perturbation theory is applied to analyze the effect of a dopant impurity on the electronic properties of a semiconductor:\n\nStep 1: Define the semiconductor system\nSuppose we have a bulk intrinsic semiconductor such as silicon with a well-defined periodic crystal lattice. In this system, the valence and conduction bands are separated by a bandgap, which determines the electronic properties of the semiconductor.\n\nStep 2: Introduce the impurity\nNow we introduce an impurity, say a small concentration of phosphorus atoms, which are substituted for the silicon atoms in the crystal lattice. Phosphorus atoms have one more valence electron than silicon atoms, creating additional electronic states in the system. We now consider the impurity as a perturbation to the system.\n\nStep 3: Apply perturbation theory\nConsidering the single impurity as a perturbation, we apply first-order perturbation theory to find the correction to the energy levels (eigenvalues) of the system. When an impurity aligns with an energy level, it could lead to a large correction within the host material.\n\nStep 4: Identify degenerate levels \nWe examine the energy levels close to the conduction band edge and identify any degenerate or nearly degenerate energy levels. In this case, we might find that multiple states have been introduced in the crystal lattice due to the presence of impurity atoms. Note that a degenerate scenario arises due to the coincidental energy levels that are not coupled by the perturbation of the impurity.\n\nStep 5: Apply degenerate perturbation theory\nApply degenerate perturbation theory to treat the degenerate or nearly degenerate energy levels. This involves re-diagonalizing the matrix representing the perturbation Hamiltonian within the subspace spanned by the degenerate states. This process results in new energy levels and eigenvectors, which provide a more accurate description of the system with the impurity.\n\nBy applying degenerate perturbation theory in this manner, we can accurately and systematically analyze the modification of energy levels in a semiconductor due to the addition of dopant impurities, which in turn affects the overall electronic and optical properties of the material. This theoretical analysis provides important insights into the material's behavior and helps guide the design of semiconductor devices for various applications.",
+            "role": "assistant",
+            "createdAt": 1680107175387,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "RkAqr2X_sxVc-2R1w5aEj",
+            "chatId": "uG-HpguvAYK9PbD7-2Lhn",
+            "content": "hier mein input: die künstler selber reisen mit dem flugzeug an, die crew jedoch, in europa zumindest, mit bussen. die sensibilisierung der besucher kann ebenfalls einen grossen effekt auf deren zukünftige emissionen haben. stelle mir 5 weitere fragen und gib mir dann aufgrund der antworten ein berechnete co2-bilanz.",
+            "role": "user",
+            "createdAt": 1680095697264,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "SriY9cr9cFPZoAAlHajp8",
+            "chatId": "8u48XqLmYbDzt40KCC8Et",
+            "content": "Unten findest du den bisherigen Gesprächsverlauf und eine neue Frage, die vom Benutzer gestellt wurde und die durch das Suchen in einer Wissensdatenbank über Mitarbeiter-Gesundheitspläne und das Mitarbeiterhandbuch beantwortet werden muss.\n    Generiere eine Suchanfrage basierend auf dem Gespräch und der neuen Frage.\n    Füge in den Suchbegriffen der Suchanfrage keine Dateinamen für zitierte Quellen und Dokumente ein, z.B. info.txt oder doc.pdf.\n    Füge in den Suchbegriffen der Suchanfrage keinen Text innerhalb von [] oder <<>> ein.\n    Wenn die Frage nicht auf Englisch ist, übersetze die Frage ins Englische, bevor du die Suchanfrage generierst.\n\nChatverlauf:\n{chat_history}\n\nFrage:\n{question}\n\nSuchanfrage:",
+            "role": "assistant",
+            "createdAt": 1680126977036,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "Uqu9UFiUXO1egv6IW21Xk",
+            "chatId": "osKPeUzZG6fMiThEsIm-B",
+            "content": "Festival-Konzept: Radar Festival 2023\n\n1. Einleitung\n\nDas Radar Festival ist ein jährliches, eintägiges Musikfestival, das aufstrebende nationale und internationale Newcomer-Talente in unterschiedlichsten Genres entlang der Zürcher Langstrasse präsentiert. Seit seiner Gründung im Jahr 2018 hat das Festival eine einzigartige musikalische Plattform geschaffen, die es den Besucher*innen ermöglicht, neue Musikrichtungen und Künstler*innen in einem intimen Rahmen zu genießen. Mit Locations in Gehdistanz wird das Publikum dazu eingeladen, die Vielfalt der Langstrasse und die aufstrebenden Talente auf diversen Bühnen zu entdecken.\n\nIn diesem Dokument werden die Festivalkonzepte, Veranstaltungsorte und Aktivitäten für das Radar Festival 2023 dargelegt.\n\n2. Veranstaltungsorte und Format\n\nIm Herzen der Zürcher Langstrasse bietet das Radar Festival 2023 eine Mischung aus etablierten Clubs und Off-Locations. Diese verschiedenen Veranstaltungsorte werden die Zusammenarbeit und den Austausch von Künstler*innen unterschiedlichster Genres und Herkunft ermöglichen:\n\n- Location 1: [Name, Kapazität, Musikstile]\n- Location 2: [Name, Kapazität, Musikstile]\n- Location 3: [Name, Kapazität, Musikstile]\n- ...\n\nDarüber hinaus sind zusätzliche Off-Locations geplant, um das Festivalerlebnis noch vielfältiger und einzigartiger zu gestalten. Weitere Details zu diesen Locations werden rechtzeitig vor dem Festival bekannt gegeben.\n\n3. Künstleraufgebot und Diversität\n\nDas Radar Festival 2023 legt besonderen Wert darauf, ein abwechslungsreiches musikalisches Programm aus einer Vielzahl von Genres und Stilrichtungen zu präsentieren. Das Line-Up wird bereits etablierte Newcomer sowie lokale Talente aus der Schweiz und dem internationalen Raum umfassen, welche die Zukunft der Musik repräsentieren.\n\nBei der Auswahl der Künstler*innen ist das Streben nach Diversität und Inklusion im Hinblick auf Geschlecht, geografische Herkunft und musikalischer Stilrichtung von zentraler Bedeutung.\n\n4. Aktivitäten und Networking\n\nAbgesehen von den Live-Auftritten wird das Radar Festival 2023 auch Networking-Möglichkeiten, \"Meet & Greets\" mit Künstler*innen, sowie Panels und Workshops bieten, die relevanten Themen der Musikbranche und kreativen Prozesse aufgreifen. Diese Aktivitäten sollen das Publikum, die Künstler*innen und Branchenvertreter*innen zusammenbringen und den Austausch von Ideen und Fachwissen fördern.\n\n5. Zusammenarbeit und Synergien\n\nDas Festival strebt auch strategische Partnerschaften mit anderen bedeutenden kreativen und musikalischen Organisationen an, um Synergien zu schaffen und das Festival-Erlebnis weiter zu bereichern. Dies kann Kooperationen mit Galerien, Musikschulen, Kulturinstitutionen und anderen Veranstaltungen in der Stadt und darüber hinaus umfassen.\n\n6. Nachhaltigkeit\n\nIm Rahmen des Radar Festivals 2023 werden wir uns bemühen, nachhaltige Veranstaltungspraktiken umzusetzen, um unseren ökologischen Fußabdruck zu minimieren. Diese beinhalten Maßnahmen wie Recycling, umweltfreundliche Catering-Optionen und die Förderung von umweltfreundlichen Transportmöglichkeiten für unser Publikum.\n\n7. Zusammenfassung\n\nDas Radar Festival 2023 ist ein einzigartiges Musikfestival, das die Vielfalt der Musikszene feiert und aufstrebende Künstler*innen der Zukunft fördert. Mit spannenden Veranstaltungsorten, einem vielseitigen Line-Up, Networking-Möglichkeiten und der Schaffung von Synergien, wird das Radar Festival 2023 ein unvergessliches Erlebnis und eine inspirierende Plattform für junge Talente bieten.",
+            "role": "assistant",
+            "createdAt": 1680192790509,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "WILXgZu0YdRnRGW6fnbLc",
+            "chatId": "uG-HpguvAYK9PbD7-2Lhn",
+            "content": "\nStakeholderliste Gadget 1. Künstler, Crew & Management o Künstler o Management o Agenten (international und lokal) o Labels o Crew / Staff o Bühnenpersonal / Sicherheit o Runner 2. Besucher o Konzertbesucher o Festivalbesucher 3. Aktionäre o Partner / Besitzer Gadget o Eventim (Mehrheitsaktionär) 4. Dachorganisationen / Verbände o IFPI Schweiz o MMF Suisse o Suissimage o Swiss Music Promoters Association (SMPA) o Yourope – The European Festival Association 5. Behörden / Gesetzgeber o Bund o Kanton o Stadt o Stadtpolizei o Versicherungen o SUISA o Steueramt 6. Veranstaltungsorte / Partner o Stadien o Eventhallen o Kleinere Veranstaltungsorte 7. Dienstleister o Druckereien o Lieferanten o Medienpartner o Social Media Influencer o Ticketcorner o Co-Promoter Shows o Freelancer o Journalist:innen o Lokaler Transport o Bühnencrew o Sicherheitspersonal o Eventstaff o Einlasspersonal / Garderobe / Kasse o Gastro / Catering o Foodtrucks o Stände / Küchen in Veranstaltungsorten Tabelle über Veranstaltungsorte mit den meisten Konzerten im Jahr 2022 und den durchschnittlichen anzahl besucher pro konzert: Anzahl Events Veranstaltungsort Durchschnittliche Anzahl Besucher 21 Shows Hallenstadion 7810 14 Shows Exil 189 13 Shows Halle 622 2316 12 Shows Kaufleuten 586 10 Shows X-TRA 1459 8 Shows Volkshaus 1296 8 Shows The Hall 2794 6 Shows Theater 11 1205 6 Shows KKL Luzern 1061 5 Shows Casino Bern 921 4 Shows Plaza 361 4 Shows Dynamo 479 2 Shows Stadion Letzigrund 48117 2 Shows Stadion Wankdorf 30022 CO2-Bilanz Openair St.Gallen 2022: Umweltbelastung pro Event Gast 0.0080 t CO₂e/# Total 899.7623 t CO₂e total Energie 1.3581 t CO₂e cat Total Strom 1.3581 t CO₂e Total Wärme und Kälte 0.0000 t CO₂e Mobilität 221.1824 t CO₂e cat Total Event-Mobilität 188.6389 t CO₂e Total Pendelverkehr Total Geschäftsverkehr und Übernachtungen 32.5436 t CO₂e Transport 68.1067 t CO₂e cat Total Treibstoffverbrauch firmeneigene Fahrzeuge Total Transporte Drittunternehmen 68.1067 t CO₂e Verpflegung und Getränke 492.4375 t CO₂e cat Total Getränke 152.1635 t CO₂e Total Snacks & Mahlzeiten 340.2741 t CO₂e Material 73.9701 t CO₂e cat Total Leitungswasser 0.8038 t CO₂e Total Material für Events 37.3042 t CO₂e Total Drucksachen Total zusätzliches Material 35.8621 t CO₂e Abfall und Recycling 42.7074 t CO₂e cat Total Abfall in KVA 39.0357 t CO₂e Total Recycling Abfall 0.0372 t CO₂e Total Abwasser 3.5752 t CO₂e Total Entsorgung 0.0594 t CO₂e\n",
+            "role": "user",
+            "createdAt": 1680093844819,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "WTPhOg21trlU2Mr86rkVP",
+            "chatId": "osKPeUzZG6fMiThEsIm-B",
+            "content": "dies kann ich dir alles nicht beantworten, weil die planung des festivals 2023 noch nicht so weit fortgeschritten ist.\n\n----\n\nPrompt: GPT, frage mich nun nach einem Beispiel eines Begleitschreiben für einen Fördergesuch von letztem Jahr",
+            "role": "user",
+            "createdAt": 1680192112814,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "WhPf_APNGSy-Rmp2mPXCk",
+            "chatId": "osKPeUzZG6fMiThEsIm-B",
+            "content": "Erstelle nun das Dokument Festival-Konzept",
+            "role": "user",
+            "createdAt": 1680192631133,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "YhWWmRyi5MRGSsb1k_sP0",
+            "chatId": "osKPeUzZG6fMiThEsIm-B",
+            "content": "Budgetübersicht: Radar Festival 2023\n\nIn dieser Budgetübersicht werden die geplanten Einnahmen und Ausgaben des Radar Festivals 2023 aufgelistet. Beachten Sie, dass die Zahlen und Details noch aktualisiert werden müssen, sobald die Planung des Festivals 2023 abgeschlossen ist.\n\nFinanzierung:\n1. Ticketing\n   - Nettoeinnahmen (Schätzung)    CHF [summe]\n\n2. Sponsoring / Subventionen (Schätzung)\n   a. Sponsoring [Sponsor 1]       CHF [summe]\n   b. Sponsoring [Sponsor 2]       CHF [summe]\n   c. Sponsoring [Sponsor 3]       CHF [summe]\n   d. Subvention [Institution 1]   CHF [summe]\n   e. Subvention [Institution 2]   CHF [summe]\n   f. Subvention [Institution 3]   CHF [summe]\n   - TOTAL                                   CHF [summe]\n\n3. Zusätzliche Einnahmen\n   - Merchandise                             CHF [summe]\n   - Gastronomie                             CHF [summe]\n   - TOTAL                                      CHF [summe]\n\nAusgaben:\n1. Künstlerausgaben\n   a. Gagen                                      CHF [summe]\n   b. Hospitality                              CHF [summe]\n   - TOTAL                                      CHF [summe]\n\n2. Veranstaltungsortkosten\n   - Ausgaben                                  CHF [summe]\n\n3. Weitere Festivalausgaben\n   a. Produktionskosten                   CHF [summe]\n   b. Personal                                 CHF [summe]\n   c. Urheberrechtskosten                CHF [summe]\n\n4. Promotion / Marketing\n   - Promotion / Marketing                CHF [summe]\n\nGewinn-/Verlustberechnung:\n1. Gesamteinnahmen                         CHF [summe]\n2. Gesamtausgaben                          CHF [summe]\n3. Gewinn/Verlust Veranstalter         CHF [summe]\n\nDieses Budget gibt Ihnen eine Übersicht über die geplanten Einnahmen und Ausgaben des Radar Festivals 2023. Es ist wichtig zu beachten, dass sich einige Zahlen und Details ändern können, wenn die Planungen des Festivals fortschreiten und sich Rahmenbedingungen ändern.",
+            "role": "assistant",
+            "createdAt": 1680206055576,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "ZRst1eMun3E-fKArquxeB",
+            "chatId": "uG-HpguvAYK9PbD7-2Lhn",
+            "content": "Danke für die zusätzlichen Informationen. \n\nFrage 3: Wie hoch ist der Anteil internationaler Künstler und Crews im Vergleich zu lokalen Künstlern und Crews, die an Ihren Veranstaltungen teilnehmen (z.B. in Prozent aller Veranstaltungen)? \n\nFrage 4: Gibt es Unterschiede im Transport von Ausrüstung und Materialien für lokale und internationale Künstler und Crews? Falls ja, wie sieht die Verteilung der Verkehrsmittel (z.B. LKW, Zug) für den Transport der Ausrüstung aus?",
+            "role": "assistant",
+            "createdAt": 1680094107993,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "ZyoK80kugtNGjRTegjsG4",
+            "chatId": "uG-HpguvAYK9PbD7-2Lhn",
+            "content": "weiss ich nicht. stelle auch fragen, welche nicht die künstler betreffen.",
+            "role": "user",
+            "createdAt": 1680095757520,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "_qzqvqZ4OR-gwvNXVqMqG",
+            "chatId": "uG-HpguvAYK9PbD7-2Lhn",
+            "content": "Ok",
+            "role": "assistant",
+            "createdAt": 1680093846358,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "bc4hwZaGAjPEFd0UsdYnq",
+            "chatId": "uG-HpguvAYK9PbD7-2Lhn",
+            "content": "Vielen Dank für die Klarstellung.\n\nBasierend auf den zur Verfügung gestellten Informationen werde ich nun eine grobe CO2-Analyse für Gadget durchführen, die auf den wichtigsten Faktoren wie Energieverbrauch, Transport, Abfall und Materialverbrauch basiert. \n\n1. Energieverbrauch: Da bereits LED-Beleuchtung verwendet wird und der gesamte Strom aus erneuerbaren Quellen stammt, sind die CO2-Emissionen in diesem Bereich wahrscheinlich geringer als bei herkömmlichen Beleuchtungs- und Stromquellen.\n\n2. Transport: Basierend auf der Analyse der Künstlerliste und der Transportmittel können wir schätzen, dass 23,3% der Künstler und Crews lokal und 76,7% international unterwegs sind. Da internationale Künstler und Crews hauptsächlich mit dem Flugzeug reisen, kann der Transportsektor als Hauptquelle für CO2-Emissionen angesehen werden.\n\n3. Abfall und Materialverbrauch: Es ist wichtig, die Verwendung von Einwegprodukten und die Entsorgungspraktiken in den Veranstaltungsorten zu minimieren. Zusätzliche Maßnahmen, wie z.B. die Einführung von Green Ridern für alle Gadget-Streams, können dazu beitragen, das Bewusstsein für nachhaltiges Handeln bei den beteiligten Stakeholdern zu fördern.\n\n4. Sensibilisierung: Die geplante Umsetzung des Green Riders kann dazu beitragen, Künstler, Crews und Besucher für Umwelt- und Nachhaltigkeitsthemen zu sensibilisieren.\n\nEs wird empfohlen, weiterhin Maßnahmen zu ergreifen, um den CO2-Fußabdruck von Gadget zu reduzieren, darunter:\n\n- Die Zusammenarbeit mit Veranstaltungsorten und Dienstleistern intensivieren, um mehr umweltfreundliche Praktiken und Materialien zu fördern.\n- Fortlaufende Überprüfung und Anpassung von Energiesystemen und Technologien für Licht- und Tontechnik, um den Energieverbrauch zu reduzieren.\n- Implementierung des Green Riders und fortlaufende Kommunikation mit den verschiedenen Stakeholdern, um die Sensibilisierung für Umwelt- und Nachhaltigkeitsthemen bei allen Beteiligten zu fördern.\n\nMit diesen Maßnahmen kann Gadget einen bedeutenden Beitrag zur Verringerung der CO2-Emissionen in der Live-Musikindustrie in der Schweiz leisten.",
+            "role": "assistant",
+            "createdAt": 1680095018762,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "c1FlqDEAy43rYSN-qv0XD",
+            "chatId": "osKPeUzZG6fMiThEsIm-B",
+            "content": "Erstelle nun eine Vorlage für Dokument 1: Begleitschreiben ",
+            "role": "user",
+            "createdAt": 1680192471845,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "dStC90ASITySAKZ9--RWr",
+            "chatId": "osKPeUzZG6fMiThEsIm-B",
+            "content": "Radar Festival 2022 – Budget\n\nFinanzierung\t\t\n\t\t\n\tTicketing\t\n1\tNet income (Schätzung)\tCHF 78'000.00\n\t\t\n\tSponsoring / Subventionen (Schätzung)\t\n2a\tSponsoring Ticketcorner (bestätigt)\tCHF 15'000.00\n2b\tSponsoring Carhartt (bestätigt)\tCHF 5'000.00\n2c\tSponsoring JTI (bestätigt)\tCHF 6'000.00\n2d\tSponsoring Diwisa (bestätigt)\tCHF 6'000.00\n2e\tStiftung Phonoproduzierende (bestätigt)\tCHF 20'000.00\n2f\tFondation SUISA (bestätigt)\tCHF 8'000.00\n2g\tPro Helvetia (angefragt)\tCHF 15'000.00\n2h\tMigros Kulturprozent (angefragt)\tCHF 15'000.00\n\tTOTAL\tCHF 90'000.00\n\t\t\n\tVariouse Income\t\n3\tMerch\tCHF 500.00\n4\tGastro\tCHF 8'000.00\n\tTOTAL\tCHF 8'500.00\nKosten\t\t\n\tArtist expenses\t\n5a\tTotal Fees\tCHF 45'000.00\n5b\tHospitality\tCHF 18'000.00\n\tTOTAL\tCHF 63'000.00\n\t\t\n\tVenues expenses\t\n6\tVenue expenses\tCHF 42'000.00\n\t\t\n\tOther Festival expenses\t\n7a\tProduction expenses\tCHF 20'000.00\n7b\tStaff\tCHF 25'000.00\n7c\tUrheberrechte\tCHF 4'000.00\n\t\t\n\tPromotion / Marketing\t\n8\tPromotion / Marketing\tCHF 18'000.00\n\t\t\n\tIncome Calculation\t\n9\tTotal income (ohne Pro Helvetia & Kulturprozent)\tCHF 146'500.00\n10\tTotal expenses\tCHF 172'000.00\n11\tTotal profit/loss promoter\tCHF -25'500.00\n\n---------\nPrompt: GPT, frage mich nun nach zusätzlichen Informationen, die du zur erstellung des kompletten gesuches benötigst",
+            "role": "user",
+            "createdAt": 1680191700685,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "dX-gd6CY7qed4WlcqDnhl",
+            "chatId": "8u48XqLmYbDzt40KCC8Et",
+            "content": "Als Nachhaltigkeitsanalyst, spezialisiert auf die Live-Musikindustrie in der Schweiz, solltest du folgende Ziele verfolgen: Die CO2-Emissionen so weit wie möglich reduzieren, die Besucher auf Umweltthemen sensibilisieren, um zukünftige Einsparungen durch nachhaltigeres Verhalten zu erzielen, und sicherstellen, dass alle Akteure, die von den Maßnahmen betroffen sind, maximal kooperationsbereit sind. Um diese Ziele zu erreichen, beachte bitte folgende detaillierte Anweisungen, einschließlich der besten Kanäle, um die Stakeholder auf Nachhaltigkeitsfragen und Lösungen aufmerksam zu machen.",
+            "role": "assistant",
+            "createdAt": 1680123771104,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "eCISN6ANqPYazouUhvLzL",
+            "chatId": "8u48XqLmYbDzt40KCC8Et",
+            "content": "Als Assistent unterstützt du die Mitarbeiter der Gadget abc Entertainment Group AG bei Fragen zur Nachhaltigkeitsstrategie, Maßnahmen und Überwachung in ihren Unternehmensdokumenten. Gib kurze Antworten. \n\nAntworte NUR auf der Grundlage der unten aufgelisteten Informationsquellen. Wenn nicht genügend Informationen vorhanden sind, sage bitte, dass du es nicht weißt. Generiere keine Antworten, die die unten genannten Quellen nicht nutzen. Wenn es hilfreich wäre, eine klärende Frage an den Benutzer zu stellen, stelle bitte die Frage. \n\nGib Tabelleninformationen als HTML-Tabelle zurück. Verwende nicht das Markdown-Format. Jede Quelle hat einen Namen, gefolgt von einem Doppelpunkt und den tatsächlichen Informationen. Gib bei jeder Tatsache, die du in der Antwort verwendest, den Namen der Quelle an. Verwende eckige Klammern, um auf die Quelle zu verweisen, z.B. [info1.txt]. Kombiniere keine Quellen, liste jede Quelle separat auf, z.B. [info1.txt][info2.pdf].",
+            "role": "assistant",
+            "createdAt": 1680123877195,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "fMTrJYGb7KQFqqEAwUHwv",
+            "chatId": "osKPeUzZG6fMiThEsIm-B",
+            "content": "weiter mit dem nächsten dokument",
+            "role": "user",
+            "createdAt": 1680205986164,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "ft_u4McbzSsChoGMBqbJM",
+            "chatId": "8u48XqLmYbDzt40KCC8Et",
+            "content": "Generiere drei sehr kurze Folgefragen, die der Benutzer wahrscheinlich als nächstes zu seinem Gesundheitsplan und Mitarbeiterhandbuch stellen würde.\n    Verwende doppelte spitze Klammern, um auf die Fragen zu verweisen, z.B. <<Gibt es Ausschlüsse für verschreibungspflichtige Medikamente?>>.\n    Wiederhole keine bereits gestellten Fragen.\n    Generiere nur Fragen und keinen Text vor oder nach den Fragen, wie zum Beispiel \"Nächste Fragen\".",
+            "role": "assistant",
+            "createdAt": 1680126642792,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "hlITbb60pfS7kiuLVkVrQ",
+            "chatId": "8u48XqLmYbDzt40KCC8Et",
+            "content": "Assistent unterstützt die Mitarbeiter der Gadget abc Entertainment Group AG bei Fragen zu Nachhaltigkeitsstrategie, Maßnahmen und Überwachung ihrer Unternehmensdokumente. Geben Sie kurze Antworten.\nAntworten Sie NUR auf der Grundlage der unten aufgelisteten Informationsquellen. Wenn nicht genügend Informationen vorhanden sind, sagen Sie, dass Sie es nicht wissen. Generieren Sie keine Antworten, die die unten genannten Quellen nicht nutzen. Wenn es hilfreich wäre, dem Benutzer eine klärende Frage zu stellen, stellen Sie die Frage.\nGeben Sie Tabelleninformationen als HTML-Tabelle zurück. Verwenden Sie nicht das Markdown-Format.\nJede Quelle hat einen Namen, gefolgt von einem Doppelpunkt und den tatsächlichen Informationen. Geben Sie bei jeder Tatsache, die Sie in der Antwort verwenden, den Namen der Quelle an. Verwenden Sie eckige Klammern, um auf die Quelle zu verweisen, z.B. [info1.txt]. Kombinieren Sie keine Quellen, listen Sie jede Quelle separat auf, z.B. [info1.txt][info2.pdf].\n\nDu bist ein Nachhaltigkeitsanalyst, der sich auf die Live-Musikindustrie in der Schweiz spezialisiert hat. Dein Ziel ist es, die CO2-Emissionen so weit wie möglich zu reduzieren, die Besucher für Umweltthemen zu sensibilisieren, um zukünftige Einsparungen durch nachhaltigeres Verhalten zu erzielen und sicherzustellen, dass alle Akteure, die von den Maßnahmen betroffen sind, maximal kooperationsbereit sind. Gib detaillierte Anweisungen, wie du diese Ziele erreichen würdest, einschließlich der besten Kanäle, um die Stakeholder auf Nachhaltigkeitsfragen und Lösungen aufmerksam zu machen.",
+            "role": "assistant",
+            "createdAt": 1680123574990,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "j6NteryDWdm2tgMi8JZQC",
+            "chatId": "nGzxnokkGM7o2GSBq8lpz",
+            "content": "Hier ist eine Formel, die den Wert aus Zelle D verwendet, um nach einem Eintrag in der Spalte \"Venues\" in der Tabelle \"Kategorien_Venues\" zu suchen und den zugehörigen Eintrag in der Spalte \"Kategorie\" zurückzugeben: \n\n=INDEX(Kategorien_Venues[Kategorie],MATCH(D1,Kategorien_Venues[Venues],0))\n\nDiese Formel verwendet die INDEX- und MATCH-Funktionen, um den Eintrag in der Spalte \"Kategorie\" zurückzugeben. Die MATCH-Funktion sucht nach dem Wert in Zelle D1 in der Spalte \"Venues\". Wenn ein Übereinstimmung gefunden wird, gibt sie den entsprechenden Zeilenindex zurück. Dieser Index wird dann an die INDEX-Funktion übergeben, die den entsprechenden Eintrag in der Spalte \"Kategorie\" zurückgibt.\n\nBeachten Sie, dass \"Kategorien_Venues\" der Name Ihrer Tabelle sein muss und \"Venues\" und \"Kategorie\" die Namen der Spalten innerhalb dieser Tabelle sein müssen. Sie müssen diese Namen anpassen, um zu Ihren tatsächlichen Datenquellen zu passen.",
+            "role": "assistant",
+            "createdAt": 1680098689361,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "jjQJ802ExEZdYwcb7rueU",
+            "chatId": "osKPeUzZG6fMiThEsIm-B",
+            "content": "Könntest du mir bitte zusätzliche Informationen zur Verfügung stellen, die für die Erstellung des Fördergesuchs für das Radar Festival 2023 notwendig sein könnten? Insbesondere interessiere ich mich für:\n\n1. Änderungen oder Erweiterungen, die für die Ausgabe 2023 geplant sind (z.B. zusätzliche Veranstaltungsorte, Künstler oder Aktivitäten).\n2. Wie das Festival seine Diversität im Hinblick auf Gender, regionale Herkunft der Künstler*innen und musikalische Genres weiter verbessern möchte.\n3. Erfolge oder Meilensteine aus dem Radar Festival 2021, die für das Fördergesuch hervorgehoben werden könnten.\n4. Erfahrungen und Beispiele für gelungene Zusammenarbeit mit bisherigen Sponsoren oder Förderinstitutionen.\n5. Langfristige Ziele und Wachstumsstrategien für das Radar Festival.\n\nDiese Informationen helfen dabei, ein umfassendes und überzeugendes Fördergesuch für das Radar Festival 2023 zu erstellen.",
+            "role": "assistant",
+            "createdAt": 1680191734590,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "kXYRaHwc25m-9d17M5WN_",
+            "chatId": "2Dc4B9r2zA6U_yUz_63mi",
+            "content": "Another example of applying degenerate perturbation theory in material science is the investigation of the Jahn-Teller effect in transition metal compounds. The Jahn-Teller effect is a geometric distortion in molecular systems and solid-state materials, which occurs when degenerate energy levels are distorted, resulting in lowered energy for the system. This phenomenon plays a crucial role in the electronic, magnetic, and structural properties of materials such as perovskites and transition metal oxides.\n\nLet's consider a transition metal oxide, where the degenerate energy levels belonging to transition metal-d orbitals are responsible for Jahn-Teller distortions:\n\nStep 1: Define the material system\nConsider a transition metal oxide with a cubic perovskite structure, such as LaMnO3, which exhibits strong electronic correlations and complex magnetic properties due to the presence of transition metal ions (Mn in this case).\n\nStep 2: Identify the applicable energy levels\nExamine the electronic configuration of Mn3+ ions, which exhibit high spin d4 configurations. This leads to two sets of degenerate orbital energy levels: doubly degenerate e_g set and triply degenerate t_2g set.\n\nStep 3: Examine the coupling to vibrational modes\nInvestigate the coupling between the degenerate e_g electrons and the vibrational modes of the lattice, such as the oxygen breathing modes surrounding the Mn3+ ions.\n\nStep 4: Identify degeneracy and apply degenerate perturbation theory\nApply degenerate perturbation theory to the affected electronic states (e_g levels) to analyze and quantify the Jahn-Teller effect in the material. By re-diagonalizing the matrix representing the perturbation Hamiltonian in the subspace spanned by the degenerate states, we can obtain new energy levels and eigenvectors that appropriately describe the distorted system.\n\nStep 5: Analyze the consequences of the Jahn-Teller effect\nDetermine the impact of the resulting Jahn-Teller distortion on the electronic, magnetic, and structural properties of the material. In the case of LaMnO3, the distortion can cause ferromagnetic ordering and potentially modulate the transport properties of the material.\n\nIn this example, degenerate perturbation theory is applied to investigate the Jahn-Teller effect in transition metal oxides, which helps in understanding the relationship between the geometry, electronic structure, and collective properties of these materials, guiding the design of next-generation functional materials and devices.",
+            "role": "assistant",
+            "createdAt": 1680107332406,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "kkKFKbaCUsthSxjlBdAy0",
+            "chatId": "uG-HpguvAYK9PbD7-2Lhn",
+            "content": "Verstanden, danke für die Information.\n\nFrage 6: Arbeiten Sie bereits daran, effizientere Energiesysteme (z.B. LED-Beleuchtung, energieeffizientere Soundanlagen) bei Ihren Veranstaltungen einzusetzen, oder sind Maßnahmen geplant, um den Energieverbrauch bei Licht- und Tontechnik zu reduzieren?",
+            "role": "assistant",
+            "createdAt": 1680094889517,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "l4ncXCRkItvaXgLYMZ-jn",
+            "chatId": "uG-HpguvAYK9PbD7-2Lhn",
+            "content": "Ok, ich warte auf die grundlegenden Informationen zum Unternehmen und Ihrer Nachhaltigkeitsstrategie. Bitte teilen Sie diese Informationen mit, und ich werde den Erhalt der Infos mit \"ok\" bestätigen.",
+            "role": "assistant",
+            "createdAt": 1680093775781,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "lgVY6Wd3j64vacjmsK2sM",
+            "chatId": "uG-HpguvAYK9PbD7-2Lhn",
+            "content": "Du bist ein Nachhaltigkeitsanalyst, der sich auf die Live-Musikindustrie in der Schweiz spezialisiert hat. Dein Ziel ist es, die CO2-Emissionen so weit wie möglich zu reduzieren, die Besucher für Umweltthemen zu sensibilisieren, um zukünftige Einsparungen durch nachhaltigeres Verhalten zu erzielen, und sicherzustellen, dass alle Akteure, die von den Maßnahmen betroffen sind, maximal kooperationsbereit sind. Gib detaillierte Anweisungen, wie du diese Ziele erreichen würdest, einschließlich der besten Kanäle, um die Stakeholder auf Nachhaltigkeitsfragen und Lösungen aufmerksam zu machen. Zuerst will ich eine CO2-Analyse meines Unternehmens Gadget, dem grössten Veranstalter von Konzerten und Festivals in der Schweiz durchführen (ca. 200 Konzerte und 7 Festivals pro Jahr). Stell mir alle nötigen Fragen, die du benötigst, um eine sinnvolle, vorerst grobe CO2-Analyse durchzuführen. Stelle pro Nachricht eine Frage, dann überprüfe, ob meine Antwort genug Informationen liefert, dann stell Folgefragen oder fahre mit der nächsten Frage fort. Zuerst liefere ich dir grundsätzliche Informationen zum Unternehmen und unserer Nachhaltigkeitsstrategie. Bestätige jedesmal den erhalt der Infos mit \"ok\". \n\nWenn ich in einer Nachricht sage \"Infos fertig\", kannst du mit Frage 1 beginnen. Du darfst nicht \"Infos fertig\" sagen.\n\n\n",
+            "role": "user",
+            "createdAt": 1680093768325,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "ljv__2OfaUTtpOeidBaNY",
+            "chatId": "8u48XqLmYbDzt40KCC8Et",
+            "content": "übersetze diesen prompt auf deutsch:\n\n\nBelow is a history of the conversation so far, and a new question asked by the user that needs to be answered by searching in a knowledge base about employee healthcare plans and the employee handbook.\n    Generate a search query based on the conversation and the new question. \n    Do not include cited source filenames and document names e.g info.txt or doc.pdf in the search query terms.\n    Do not include any text inside [] or <<>> in the search query terms.\n    If the question is not in English, translate the question to English before generating the search query.\n\nChat History:\n{chat_history}\n\nQuestion:\n{question}\n\nSearch query:",
+            "role": "user",
+            "createdAt": 1680126951638,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "lpCh5FHjk-UvjCe4_rxzz",
+            "chatId": "nGzxnokkGM7o2GSBq8lpz",
+            "content": "gib mir eine weitere formel, welche den wert aus der zelle D\" nimmt, diesen in der in der tabelle \"Kategorien_Venues\" nach einem eintrag in der spalte \"Venues\" sucht, und den zu diesem Venue gehörenden Eintrag in der Spalte \"Kategorie\" in die Zelle ausgibt.",
+            "role": "user",
+            "createdAt": 1680098678221,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "o6wZ_gNU3Uo6ph20USZKa",
+            "chatId": "osKPeUzZG6fMiThEsIm-B",
+            "content": "Könntest du mir bitte den Text des Projektdossiers vom letzten Jahr (2021) zur Verfügung stellen, damit ich ein aussagekräftiges Fördergesuch für das Radar Festival 2023 verfassen kann? Dies wäre sehr hilfreich, um Informationen über das Festival, seine Ziele und Erfolge aus dem vergangenen Jahr einfließen zu lassen.",
+            "role": "assistant",
+            "createdAt": 1680191209909,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "oDCQEWik7BLYMpuQqzFeS",
+            "chatId": "osKPeUzZG6fMiThEsIm-B",
+            "content": "weiter mit dem nächsten dokument",
+            "role": "user",
+            "createdAt": 1680205772254,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "oudbJ9Jc3iwpDeZEbEZ-l",
+            "chatId": "uG-HpguvAYK9PbD7-2Lhn",
+            "content": "Ok, danke für die zusätzlichen Informationen. Ich werde nun mit Frage 1 beginnen, um die CO2-Analyse durchzuführen. \n\nFrage 1: Wie viele Kilometer werden im Durchschnitt für den Transport von Künstlern, Crew, Ausrüstung und Materialien zu den Veranstaltungsorten zurückgelegt, und in welchem Verhältnis werden die verschiedenen Verkehrsmittel (Flugzeug, Zug, Bus, LKW) genutzt?",
+            "role": "assistant",
+            "createdAt": 1680093906618,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "pimO1xaL8njGs_9UwceY6",
+            "chatId": "osKPeUzZG6fMiThEsIm-B",
+            "content": "RADAR – Festival For New Music\nMit dem Radar - einem Newcomer-Musikfestival an der Langstrasse in Zürich - wird dem Fördergedanken, welcher der Gadget abc Entertainment Group AG seit Anbeginn eingeschrieben ist, eine weitere Facette hinzugefügt. \nDas Radar Festival zelebriert die kulturelle Vielfalt und präsentiert einem musikaffinen Publikum eine Reihe von lokalen, nationalen und internationalen Talenten, genreübergreifend und ohne Headliner. Die Vision geht über die blosse Präsentation kulturell vielfältiger Künstler:innen hinaus und umfasst auch die Suche nach Möglichkeiten, mit Newcomer-Künstler:innen auf der Bühne und hinter den Kulissen zusammenzuarbeiten, sie zu präsentieren und zu unterstützen, um nachhaltige Karrieren zu fördern und eine führende Rolle in der Musikindustrie zu übernehmen.\nDas Langstrassen-Quartier gilt als Hotspot des Zürcher Nachtleben - die ideale Spielwiese für die Verschmelzung von kulturellem Anlass und der Ausgangsmeile. Die Konzerte werden auf verschiedenen kleinen Bühnen im Clubrahmen oder Off-Locatons präsentiert. Durch diese prominente Lage wird den Künstler:innen eine hoch frequentierte und attraktive Plattform geboten.\nIm intimen Rahmen bietet das Festival seinem Publikum so die Möglichkeit, neue und qualitativ hochstehende Live-Musik im einzigartigen Format zu geniessen und dabei seinen musikalischen Radar zu erweitern.\n\n---------------------------\n\nWERTE & MISSION\n•\tStanding als signifikantes Schweizer Tastemaker-Festival und Förderer neuer Musik\n \n•\tSchaffen einer Plattform zur Vermittlung für aufstrebende, neue und/oder unterrepräsentierte Künstler:innen aus dem In- und Ausland\n\n•\tChancengleichheit - Diversität hinsichtlich Gender, Regionen und Genres. Befähigung von Künstler:innen, faire Entlöhnung\n\n•\tDas Festival will dem Publikum ein Gefühl der Entdeckung und durch gemeinsame musikalische Erfahrungen ein Gefühl von Gemeinschaft vermitteln \n\n•\tDas Festival will eine Ressource zur Erweiterung des kulturellen Horizonts sein\n\n•\tDas Radar Festival will ein Katalysator für Veränderungen in der Livemusikbranche sein, indem das Festival Möglichkeiten schafft und Brücken baut.\n\n•\tAusbau des Gadget-Künstler:innen-Portfolios\n\n---------------------------\n\n\nPartnerschaften\nDer einzigartige Event in der Schweiz eignet sich als eine perfekte Plattform, ein Brand in einem coolen, urbanen Umfeld in Szene zu setzen. Wir gestalten individuelle und angepasste Partnerwelten. Mit dem Ziel die Künstler:innen zu fördern und zu entdecken, sind wir auf der Suche nach Partner, die gemeinsam mit uns die Werte vertreten. \nDurch unsere verschiedenen Locations und junge, aufstrebende Bands haben wir die Möglichkeit vielfältige Partnerwelten zu kreieren. Das Ziel ist es durch eine natürliche Partnerintegration, gemeinsam langfristig und organisch zu wachsen. \n\n---------------------------\n\n\nGadget abc Entertainment Group AG\nAls grösster Konzert- und Festivalveranstalter und führende Fullservice-Agentur in der Schweizer Musik- und Eventbranche, ist es unser erklärtes Ziel, unvergessliche Live-Momente für ein möglichst breites und interessiertes Publikum zu kreieren sowie die Karrieren von Künstler:innen früh aufzugreifen, gemeinsam zu entwickeln und nachhaltig zu festigen.\nWir glauben an Talente und die Wichtigkeit der individuellen Förderung. Wir begleiten junge Künstlerinnen und Künstler konsequent auf ihrem Weg.\n\n-----------\nPrompt: GPT, frage mich nun nach dem Budget von letztem Jahr.\n",
+            "role": "user",
+            "createdAt": 1680191313129,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "reAhT_CvcFL0kpTwOiXdt",
+            "chatId": "osKPeUzZG6fMiThEsIm-B",
+            "content": "Du bist Veranstalter von kleinen Musikfestivals in der Schweiz. Schreibe ein Fördergesuch für das Radar Festival 2023 für eine Projektfinanzierung, adressiert an diverese mögliche Förderinstitutionen. Ich werde dir Daten zum letztjährigen Radar Festival geben, dann einen groben Leitfaden für ein Gesuch in der nächsten Nachricht. Dies sind Daten zum Radar Festival 2022:\nDas Radar Festival ist ein eintägiges Musikfestival, das jährlich rund um die Zürcher Langstrasse stattfindet und die vielversprechendsten nationalen und internationalen Newcomer in unterschiedlichsten Genres präsentiert.\nIn mehreren Clubs und Locations, alle in Gehdistanz erreichbar, wird das Publikum dazu eingeladen, aufstrebende Künstler*innen und ihre Liveshows auf verschiedenen Bühnen im Quartier zu entdecken. Das Festival fand 2018 zum ersten Mal statt und konnte seither alle Ausgaben ausverkaufen.\nVeranstalter: Gadget\nDatum: 17. September 2022\nOrt: über 8 Locations entlang der Langstrasse, Zürich\nKapazität: 2000 Personen\n--------\nLine-Up:\nAnaïs\nBaron.E\nBarrio Colette\nCharlotte OC\nCinnay\nJoya Marleen\nKings Elliot\nLuke Noa\nNoisy\nPano\nTo Athena\nuvm.\n--------\nPromotion Text 2022:\nAm Samstag, Samstag, 17. September 2022, bespielen mehr als 25 aufstrebende Acts in mehr als acht Locations, das Langstrassen-Quartier in Zürich. Wer sich die Line-Ups der bisherigen drei Ausgaben anschaut, merkt schnell, dass einige Perlen vor ihrer grossen Entdeckung bereits am Radar-Festival aufgetreten sind. Es erwartet uns ein Abend voll von gebündeltem Talent und guter Musik in zahlreichen Facetten.\nRADAR – FESTIVAL FOR NEW MUSIC: EINE ERFOLGSGESCHICHTE\nDass es noch immer eine grosse Anzahl an Entdecker*innen in der Musikwelt gibt, hat das Radar-Festival in den letzten Jahren unter Beweis gestellt. Jede Ausgabe seit der Premiere 2018 war bisher ausverkauft. Das Programm ist jeweils breit gefächert und zieht Fans verschiedenster Genres in die Langstrasse. Dadurch erhält jede*r die Möglichkeit, auch neue Acts ausserhalb seiner musikalischen Komfortzone zu entdecken. Hier der Timetable zur diesjährigen Ausgabe:\nEIN TICKET: UNZÄHLIGE MÖGLICHKEITEN\nFür den Ticketpreis erhält man nicht nur zahlreiche Konzerte, das Fitnessprogramm ist auch schon inbegriffen. Durch den Location-Wechsel legen die Füsse über den Abend eine schöne Strecke zurück. Perfekt zum Verdauen der Musik und des letzten Biers. Zusätzlich können so viele Clubs und Bars besucht werden, wie es in einer gewöhnlichen Partynacht kaum möglich wäre. Es gibt also mehr als genug Gründe, sich für den 17. September 2022 frühzeitig ein Ticket zu sichern.\n----------\nPrompt: GPT, frage mich nun nach dem Text, ohne Bilder, des Projektdossiers von letztem Jahr",
+            "role": "user",
+            "createdAt": 1680191195685,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "sy_UggrbpCK1ETJISm4aR",
+            "chatId": "nGzxnokkGM7o2GSBq8lpz",
+            "content": "Die folgende Formel sollte das tun, was Sie verlangen:\n\n=IF(B2<500,\"A\",IF(B2<2000,\"B\",IF(B2<20000,\"C\",\"D\")))\n\nDies verwendet Excel's IF-Funktion, um eine bedingte Anweisung zu erstellen. Wenn der Wert in Zelle B2 kleiner als 500 ist, gibt die Formel \"A\" zurück. Wenn der Wert in Zelle B2 größer oder gleich 500 ist, aber kleiner als 2000, gibt die Formel \"B\" zurück. Wenn der Wert in Zelle B2 zwischen 2000 und 20000 liegt gibt es \"C\", und wenn der Wert größer als 20000 ist, gibt die Formel \"D\" zurück.",
+            "role": "assistant",
+            "createdAt": 1680098287304,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "tKCgm4rXlRa0W7YAMXYbS",
+            "chatId": "osKPeUzZG6fMiThEsIm-B",
+            "content": "Könntest du mir bitte ein Beispiel eines Begleitschreibens für ein Fördergesuch vom letzten Jahr (2021) für das Radar Festival zur Verfügung stellen? Dies wäre sehr hilfreich, um ein angemessenes Begleitschreiben für das Radar Festival 2023 zu erstellen, das den Ton und die Herangehensweise für potenzielle Förderinstitutionen angemessen wiedergibt.",
+            "role": "assistant",
+            "createdAt": 1680192127153,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "uWwZjz0K8USzEk67-Felz",
+            "chatId": "uG-HpguvAYK9PbD7-2Lhn",
+            "content": "Danke für die Informationen zu den Künstlern und ihren Herkunftsländern sowie zu den Transportmitteln.\n\nNach der Analyse der Künstlerliste und unter Berücksichtigung Ihrer Informationen zum Transportmittel können wir folgende Einschätzung vornehmen:\n\nFrage 3: Von den 103 Künstlern in der Liste kamen 24 Künstler aus der Schweiz, das entspricht etwa 23,3%. Die restlichen 79 Künstler (76,7%) sind internationale Künstler, die von verschiedenen Orten weltweit anreisen. \n\nFrage 4: \n\n- Lokale Künstler (23,3%): Transport von Ausrüstung und Materialien hauptsächlich mit Zügen und PKWs.\n- Internationale Künstler (76,7%): Künstler reisen fast immer mit dem Flugzeug. Der Transport von Ausrüstung und Materialien erfolgt mit LKWs und Bussen. \n\nMit diesen Informationen werde ich zur nächsten Frage übergehen.\n\nFrage 5: Können Sie eine Schätzung abgeben, wie viele Einweg-Produkte (z.B. Plastikbecher, Teller, Besteck) bei Konzerten und Festivals verwendet werden und ob es Pläne gibt, diese durch umweltfreundlichere Alternativen zu ersetzen?",
+            "role": "assistant",
+            "createdAt": 1680094739042,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "uamamaMgud5BMrYBQ-GXW",
+            "chatId": "2Dc4B9r2zA6U_yUz_63mi",
+            "content": "give me another example",
+            "role": "user",
+            "createdAt": 1680107258149,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "ujeDCjsV8yje7ULJ7r4Xm",
+            "chatId": "uG-HpguvAYK9PbD7-2Lhn",
+            "content": "Vielen Dank für die Informationen. Um eine genauere Berechnung der CO2-Emissionen für die Transporte durchzuführen, benötige ich weitere Details.\n\nFrage 2: Können Sie schätzen, wie oft internationale Künstler und Crews für Ihre Veranstaltungen anreisen (z.B. als Prozentsatz aller Veranstaltungen)? \nZudem wäre es hilfreich, wenn Sie eine ungefähre Aufteilung der Verkehrsmittel für die internationale Anreise angeben könnten, z.B. welcher Anteil mit Flugzeug, Zug oder LKW anreist.",
+            "role": "assistant",
+            "createdAt": 1680094015417,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "vmRJftv3BLhXVShHArDV9",
+            "chatId": "osKPeUzZG6fMiThEsIm-B",
+            "content": "Partnerschaften und Zusammenarbeit beim Radar Festival\n\nDas Radar Festival legt großen Wert auf die Zusammenarbeit und Partnerschaften mit nationalen und internationalen Marken, Sponsoren und Förderinstitutionen. Diese Zusammenarbeit trägt maßgeblich zur Förderung des Festivals, der aufstrebenden Künstler*innen und seines Einflusses auf das Musikökosystem bei. Im Folgenden finden Sie eine Übersicht über die bisherigen erfolgreichen Zusammenarbeiten und die Vision für zukünftige Partnerschaften.\n\n1. Erfolgreiche bisherige Partnerschaften\n\nIn den vergangenen Jahren hat das Radar Festival eine Reihe gelungener Partnerschaften aufgebaut, wie zum Beispiel:\n\n- [Sponsor 1]: Sponsoring von [Dienstleistungen / Produkten], was zum reibungslosen Ablauf und zur Attraktivität des Festivals beigetragen hat.\n- [Sponsor 2]: Bereitstellung von [Dienstleistungen / Produkten] und [weitere Unterstützung], was die Reichweite und den Erfolg des Festivals erhöht hat.\n- [Förderinstitution 1]: Gewährung von finanziellen Mitteln zur Unterstützung der künstlerischen Entwicklungsmaßnahmen und zur Verbesserung der Produktionsqualität des Festivals.\n\n2. Vision für zukünftige Partnerschaften\n\nFür das Radar Festival 2023 und darüber hinaus suchen wir weiterhin nach neuen Partnerschaftsmöglichkeiten, die unsere Werte und Ziele teilen und unsere Veranstaltung nachhaltig unterstützen. Unsere Vision für die Zusammenarbeit umfasst:\n\n- Langfristige Partnerschaften: Aufbau von langfristigen Beziehungen zu Marken und Förderinstitutionen, die gemeinsam mit dem Festival wachsen und unseren Erfolg sowie den",
+            "role": "assistant",
+            "createdAt": 1680206258973,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "wFs1mMejF920L9SDCGhTJ",
+            "chatId": "nGzxnokkGM7o2GSBq8lpz",
+            "content": "gib mir eine excel formel, die wenn der wert der zelle B2 unter 500 ist \"A\" in die Zelle schreibt, wenn der wert zwischen 500 und 2000 liegt \"B\", zwischen 2000 und 20000 \"C\", und darüber \"D\".",
+            "role": "user",
+            "createdAt": 1680098279841,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "xontET0KL2acnPUGvASf7",
+            "chatId": "uG-HpguvAYK9PbD7-2Lhn",
+            "content": "Vielen Dank für die Klarstellung zum Transport der Künstler und Crews. Basierend auf Ihren Anmerkungen werde ich nun noch fünf weitere Fragen stellen, um eine genauere CO2-Bilanz für Gadget erstellen zu können.\n\nFrage 7: Wie viele Busse und LKWs werden im Durchschnitt für den Transport der Crews und Ausrüstung bei Veranstaltungen mit internationalen Künstl",
+            "role": "assistant",
+            "createdAt": 1680095713579,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "yB7HmiPisencVXA_GMAT1",
+            "chatId": "nGzxnokkGM7o2GSBq8lpz",
+            "content": "schreib diese für das deutsche excel",
+            "role": "user",
+            "createdAt": 1680098304768,
+            "$types": {
+              "createdAt": "date"
+            }
+          },
+          {
+            "id": "yyEmn6fz152An5Lz446tr",
+            "chatId": "uG-HpguvAYK9PbD7-2Lhn",
+            "content": "Ok",
+            "role": "assistant",
+            "createdAt": 1680093836549,
+            "$types": {
+              "createdAt": "date"
+            }
+          }
+        ]
+      },
+      {
+        "tableName": "prompts",
+        "inbound": true,
+        "rows": []
+      },
+      {
+        "tableName": "settings",
+        "inbound": true,
+        "rows": [
+          {
+            "id": "general",
+            "openAiModel": "gpt-4",
+            "openAiApiKey": "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"
+          }
+        ]
+      }
+    ]
+  }
+}
